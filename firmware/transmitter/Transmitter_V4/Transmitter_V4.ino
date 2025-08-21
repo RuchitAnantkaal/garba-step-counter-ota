@@ -114,8 +114,6 @@ void setup() {
   Serial.println("\n========================================");
   Serial.println("    Transmitter with GitHub OTA Test    ");
   Serial.println("========================================");
-  Serial.print("Firmware Version: ");
-  Serial.println(FIRMWARE_VERSION);
   Serial.print("Running Version: ");
   Serial.println(currentRunningVersion);
   Serial.print("Device MAC: ");
