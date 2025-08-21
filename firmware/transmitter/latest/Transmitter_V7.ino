@@ -43,7 +43,7 @@ bool securityCheckPassed = false;
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* FIRMWARE_VERSION = "V3";
+const char* FIRMWARE_VERSION = "V7";
 const char* DEVICE_TYPE = "transmitter";
 
 // Current running version (loaded from EEPROM or firmware default)
@@ -263,7 +263,7 @@ void checkForOTAUpdate() {
     if (connectedSSID == otaSSID) {
       Serial.println("🔄 Connected to OTA network - checking for updates");
       
-      // Quick version check
+      // Only check for updates when connected to Anantkaal network
       if (checkGitHubVersion()) {
         if (otaUpdateAvailable) {
           Serial.println("🆕 New version available! Starting update...");
@@ -279,9 +279,10 @@ void checkForOTAUpdate() {
       securityCheckPassed = true; // OTA network also provides security
       
     } else if (connectedSSID == securitySSID) {
-      Serial.println("🔒 Connected to security network");
+      Serial.println("🔒 Connected to security network only");
+      Serial.println("⏭️  Skipping OTA check (not on OTA network)");
       securityCheckPassed = true;
-      delay(1000); // Brief security check delay
+      delay(500); // Brief security check delay
       
     } else {
       Serial.println("❓ Connected to unknown network");
