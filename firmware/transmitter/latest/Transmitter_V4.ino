@@ -178,16 +178,22 @@ void loadCurrentVersion() {
     storedVersion += c;
   }
   
-  // Validate stored version
-  if (storedVersion.length() > 0 && storedVersion.length() < VERSION_MAX_LENGTH) {
+  // Check if we have a valid stored version
+  if (storedVersion.length() > 0 && storedVersion.length() < VERSION_MAX_LENGTH && storedVersion != "") {
+    // We have a valid version in EEPROM - use it
     currentRunningVersion = storedVersion;
     Serial.println("✅ Loaded version from EEPROM: " + currentRunningVersion);
+    Serial.println("🔄 Device was previously updated via OTA");
   } else {
-    // First time boot or corrupted EEPROM - use firmware version
+    // EEPROM is empty or corrupted - this is first boot with this firmware
     currentRunningVersion = FIRMWARE_VERSION;
+    Serial.println("🆕 First boot detected - using firmware version: " + currentRunningVersion);
+    Serial.println("💾 Saving firmware version to EEPROM for tracking");
     saveCurrentVersion(currentRunningVersion);
-    Serial.println("🆕 First boot - saved firmware version to EEPROM: " + currentRunningVersion);
   }
+  
+  Serial.print("🏃 Device will run as version: ");
+  Serial.println(currentRunningVersion);
 }
 
 void saveCurrentVersion(String version) {
