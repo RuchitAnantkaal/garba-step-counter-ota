@@ -5,6 +5,7 @@
 #include <espnow.h>
 #include <Wire.h>
 #include <ArduinoJson.h>
+#include <EEPROM.h>
 
 // ADXL345 I2C address and registers
 #define ADXL345_ADDRESS 0x53
@@ -15,15 +16,23 @@
 // Built-in LED pin
 #define LED_PIN LED_BUILTIN
 
+// EEPROM Configuration
+#define EEPROM_SIZE 512
+#define VERSION_ADDRESS 0
+#define VERSION_MAX_LENGTH 10
+
 // WiFi credentials for OTA updates
 const char* updateSSID = "Anantkaal_4G";
 const char* updatePassword = "Setupdev@123";
 
 // GitHub OTA Configuration
-const char* GITHUB_USER = "RuchitAnantkaal";  // Replace with your GitHub username
+const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* CURRENT_VERSION = "V3";
+const char* FIRMWARE_VERSION = "V3";
 const char* DEVICE_TYPE = "transmitter";
+
+// Current running version (loaded from EEPROM or firmware default)
+String currentRunningVersion = "";
 
 // GitHub URLs for version check and firmware download
 String versionCheckURL = "https://api.github.com/repos/" + String(GITHUB_USER) + "/" + String(GITHUB_REPO) + "/contents/firmware/transmitter/latest/versions.json";
@@ -37,11 +46,11 @@ const unsigned long stepDelay = 300; // Minimum time between steps (ms)
 const unsigned long transmitInterval = 60000; // 1 minute in milliseconds
 
 // Debug mode configuration
-const bool DEBUG_MODE = true; // Set to false to disable debug output
+const bool DEBUG_MODE = true;
 unsigned long lastDebugPrint = 0;
 const unsigned long debugPrintInterval = 2000; // Print debug info every 2 seconds
 
-// ESP-NOW broadcast address (FF:FF:FF:FF:FF:FF for true broadcast)
+// ESP-NOW broadcast address
 uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
 // Movement states
@@ -52,9 +61,9 @@ enum MovementState {
 
 // Data structure for ESP-NOW transmission
 typedef struct {
-  char deviceId[18]; // MAC address as string
+  char deviceId[18];
   unsigned long stepCount;
-  float batteryLevel; // Optional: add battery monitoring later
+  float batteryLevel;
 } StepData;
 
 StepData stepData;
@@ -73,7 +82,21 @@ bool hasMovedToForward = false;
 // OTA Update variables
 bool otaUpdateAvailable = false;
 bool otaUpdateCompleted = false;
-String latestVersionFromGitHub = ""; // Store the latest version from GitHub
+String latestVersionFromGitHub = "";
+
+// Function declarations
+void loadCurrentVersion();
+void saveCurrentVersion(String version);
+bool checkGitHubVersion();
+void performOTAUpdate();
+String base64Decode(String input);
+void checkForOTAUpdate();
+void initADXL345();
+void readADXL345();
+void detectStep();
+void initESPNow();
+void transmitStepData();
+void printDebugInfo();
 
 void setup() {
   Serial.begin(115200);
@@ -82,11 +105,19 @@ void setup() {
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH); // Turn off LED initially
   
+  // Initialize EEPROM
+  EEPROM.begin(EEPROM_SIZE);
+  
+  // Load current version from EEPROM or use firmware default
+  loadCurrentVersion();
+  
   Serial.println("\n========================================");
   Serial.println("    Transmitter with GitHub OTA Test    ");
   Serial.println("========================================");
-  Serial.print("Current Version: ");
-  Serial.println(CURRENT_VERSION);
+  Serial.print("Firmware Version: ");
+  Serial.println(FIRMWARE_VERSION);
+  Serial.print("Running Version: ");
+  Serial.println(currentRunningVersion);
   Serial.print("Device MAC: ");
   Serial.println(WiFi.macAddress());
   
@@ -134,6 +165,54 @@ void loop() {
   }
   
   delay(50); // Small delay for stability
+}
+
+void loadCurrentVersion() {
+  Serial.println("📖 Loading version from EEPROM...");
+  
+  // Read version string from EEPROM
+  String storedVersion = "";
+  for (int i = 0; i < VERSION_MAX_LENGTH; i++) {
+    char c = EEPROM.read(VERSION_ADDRESS + i);
+    if (c == '\0' || c == 0xFF) break; // End of string or uninitialized
+    storedVersion += c;
+  }
+  
+  // Validate stored version
+  if (storedVersion.length() > 0 && storedVersion.length() < VERSION_MAX_LENGTH) {
+    currentRunningVersion = storedVersion;
+    Serial.println("✅ Loaded version from EEPROM: " + currentRunningVersion);
+  } else {
+    // First time boot or corrupted EEPROM - use firmware version
+    currentRunningVersion = FIRMWARE_VERSION;
+    saveCurrentVersion(currentRunningVersion);
+    Serial.println("🆕 First boot - saved firmware version to EEPROM: " + currentRunningVersion);
+  }
+}
+
+void saveCurrentVersion(String version) {
+  Serial.println("💾 Saving version to EEPROM: " + version);
+  
+  // Clear the version area first
+  for (int i = 0; i < VERSION_MAX_LENGTH; i++) {
+    EEPROM.write(VERSION_ADDRESS + i, 0);
+  }
+  
+  // Write new version string
+  for (int i = 0; i < version.length() && i < VERSION_MAX_LENGTH - 1; i++) {
+    EEPROM.write(VERSION_ADDRESS + i, version[i]);
+  }
+  
+  // Ensure null termination
+  EEPROM.write(VERSION_ADDRESS + version.length(), '\0');
+  
+  // Commit to EEPROM
+  EEPROM.commit();
+  
+  // Update running version
+  currentRunningVersion = version;
+  
+  Serial.println("✅ Version saved successfully");
 }
 
 void checkForOTAUpdate() {
@@ -228,13 +307,13 @@ bool checkGitHubVersion() {
   String latestVersion = versionDoc["version"];
   latestVersionFromGitHub = latestVersion; // Store for later use
   
-  Serial.print("📦 Current Version: ");
-  Serial.println(CURRENT_VERSION);
-  Serial.print("📦 Latest Version: ");
+  Serial.print("📦 Running Version: ");
+  Serial.println(currentRunningVersion);
+  Serial.print("📦 Latest GitHub Version: ");
   Serial.println(latestVersion);
   
   // Compare versions
-  if (latestVersion != CURRENT_VERSION) {
+  if (latestVersion != currentRunningVersion) {
     otaUpdateAvailable = true;
     Serial.println("🆕 New version available!");
     return true;
@@ -274,6 +353,9 @@ void performOTAUpdate() {
   
   ESPhttpUpdate.onEnd([]() {
     Serial.println("✅ OTA Update Completed!");
+    // Update version in EEPROM after successful update
+    saveCurrentVersion(latestVersionFromGitHub);
+    Serial.println("💾 Version updated in EEPROM: " + latestVersionFromGitHub);
   });
   
   ESPhttpUpdate.onProgress([](int cur, int total) {
@@ -300,6 +382,7 @@ void performOTAUpdate() {
       
     case HTTP_UPDATE_OK:
       Serial.println("✅ Update completed! Device will restart...");
+      // Note: Version is already saved in onEnd callback
       otaUpdateCompleted = true;
       break;
       
