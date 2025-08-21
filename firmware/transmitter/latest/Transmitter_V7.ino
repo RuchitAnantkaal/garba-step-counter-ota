@@ -1,4 +1,5 @@
 #include <ESP8266WiFi.h>
+#include <ESP8266WiFiMulti.h>
 #include <ESP8266HTTPClient.h>
 #include <ESP8266httpUpdate.h>
 #include <WiFiClientSecure.h>
@@ -29,13 +30,15 @@ const char* otaPassword = "Setupdev@123";
 const char* securitySSID = "garba";
 const char* securityPassword = "12345678";
 
+// WiFi Multi object for power-efficient connection
+ESP8266WiFiMulti wifiMulti;
+
+// Fast WiFi connection timeout
+const int wifiConnectionTimeout = 8; // 8 seconds max for multi-WiFi connection
+
 // Deep sleep configuration
 const unsigned long PERMANENT_DEEP_SLEEP = 0; // 0 = sleep indefinitely until manual reset
 bool securityCheckPassed = false;
-
-// OTA Check timeout (fast for battery efficiency)
-const int otaWiFiTimeout = 10; // 10 seconds max for OTA WiFi
-const int securityWiFiTimeout = 5; // 5 seconds max for security WiFi
 
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
@@ -240,45 +243,57 @@ void saveCurrentVersion(String version) {
 }
 
 void checkForOTAUpdate() {
-  Serial.println("\n⚡ FAST OTA CHECK (Battery Optimized) ⚡");
+  Serial.println("\n⚡ POWER-OPTIMIZED MULTI-WIFI CHECK ⚡");
   
-  // Step 1: Try OTA WiFi first (Anantkaal_4G)
-  Serial.println("🔍 Step 1: Checking for OTA updates...");
-  if (connectToOTAWiFi()) {
-    Serial.println("✅ Connected to OTA WiFi - checking for updates");
+  // Setup WiFi Multi with both networks
+  setupWiFiMulti();
+  
+  // Try to connect to best available network
+  Serial.println("🔍 Connecting to best available network...");
+  if (connectToWiFiMulti()) {
+    String connectedSSID = WiFi.SSID();
+    Serial.println("✅ Connected to: " + connectedSSID);
+    Serial.print("📶 Signal Strength: ");
+    Serial.print(WiFi.RSSI());
+    Serial.println(" dBm");
+    Serial.print("🌐 IP: ");
+    Serial.println(WiFi.localIP());
     
-    // Quick version check
-    if (checkGitHubVersion()) {
-      if (otaUpdateAvailable) {
-        Serial.println("🔄 New version available! Starting fast update...");
-        performOTAUpdate();
-        return; // Exit after update (device will restart)
+    // Check which network we connected to
+    if (connectedSSID == otaSSID) {
+      Serial.println("🔄 Connected to OTA network - checking for updates");
+      
+      // Quick version check
+      if (checkGitHubVersion()) {
+        if (otaUpdateAvailable) {
+          Serial.println("🆕 New version available! Starting update...");
+          performOTAUpdate();
+          return; // Exit after update (device will restart)
+        } else {
+          Serial.println("✅ Firmware up to date!");
+        }
       } else {
-        Serial.println("✅ Firmware up to date!");
+        Serial.println("❌ GitHub check failed");
       }
+      
+      securityCheckPassed = true; // OTA network also provides security
+      
+    } else if (connectedSSID == securitySSID) {
+      Serial.println("🔒 Connected to security network");
+      securityCheckPassed = true;
+      delay(1000); // Brief security check delay
+      
     } else {
-      Serial.println("❌ GitHub check failed");
+      Serial.println("❓ Connected to unknown network");
+      securityCheckPassed = false;
     }
     
-    // Disconnect OTA WiFi
+    // Disconnect WiFi
     WiFi.disconnect();
-    Serial.println("📶 OTA WiFi disconnected");
-  } else {
-    Serial.println("❌ OTA WiFi not available - skipping firmware check");
-  }
-  
-  // Step 2: Try Security WiFi (garba) 
-  Serial.println("🔒 Step 2: Checking security network...");
-  if (connectToSecurityWiFi()) {
-    Serial.println("✅ Connected to security WiFi");
-    securityCheckPassed = true;
-    // Add any security checks here if needed
-    delay(1000); // Minimal delay for security check
+    Serial.println("📶 WiFi disconnected");
     
-    WiFi.disconnect();
-    Serial.println("📶 Security WiFi disconnected");
   } else {
-    Serial.println("❌ Security WiFi not available");
+    Serial.println("❌ No authorized networks available");
     securityCheckPassed = false;
   }
   
@@ -307,58 +322,35 @@ void checkForOTAUpdate() {
   delay(500); // Brief pause before normal operation
 }
 
-bool connectToOTAWiFi() {
-  Serial.print("📡 Connecting to OTA WiFi (");
-  Serial.print(otaSSID);
-  Serial.print(")");
+void setupWiFiMulti() {
+  Serial.println("📡 Setting up Multi-WiFi networks...");
   
-  WiFi.begin(otaSSID, otaPassword);
+  // Add networks in priority order (OTA first, then security)
+  wifiMulti.addAP(otaSSID, otaPassword);      // Priority 1: OTA network
+  wifiMulti.addAP(securitySSID, securityPassword); // Priority 2: Security network
   
-  int attempts = 0;
-  int maxAttempts = otaWiFiTimeout * 2; // 500ms per attempt
-  
-  while (WiFi.status() != WL_CONNECTED && attempts < maxAttempts) {
-    delay(500);
-    Serial.print(".");
-    attempts++;
-  }
-  
-  if (WiFi.status() == WL_CONNECTED) {
-    Serial.println(" ✅");
-    Serial.print("🌐 IP: ");
-    Serial.println(WiFi.localIP());
-    return true;
-  } else {
-    Serial.println(" ❌ Timeout");
-    return false;
-  }
+  Serial.println("✅ Added OTA network: " + String(otaSSID));
+  Serial.println("✅ Added Security network: " + String(securitySSID));
 }
 
-bool connectToSecurityWiFi() {
-  Serial.print("🔒 Connecting to Security WiFi (");
-  Serial.print(securitySSID);
-  Serial.print(")");
+bool connectToWiFiMulti() {
+  Serial.print("🔗 Multi-WiFi connecting");
   
-  WiFi.begin(securitySSID, securityPassword);
+  unsigned long startTime = millis();
+  unsigned long timeout = wifiConnectionTimeout * 1000; // Convert to milliseconds
   
-  int attempts = 0;
-  int maxAttempts = securityWiFiTimeout * 2; // 500ms per attempt
-  
-  while (WiFi.status() != WL_CONNECTED && attempts < maxAttempts) {
+  // Try to connect using WiFi Multi
+  while (wifiMulti.run() != WL_CONNECTED) {
+    if (millis() - startTime > timeout) {
+      Serial.println(" ❌ Timeout");
+      return false;
+    }
     delay(500);
     Serial.print(".");
-    attempts++;
   }
   
-  if (WiFi.status() == WL_CONNECTED) {
-    Serial.println(" ✅");
-    Serial.print("🔒 Security IP: ");
-    Serial.println(WiFi.localIP());
-    return true;
-  } else {
-    Serial.println(" ❌ Timeout");
-    return false;
-  }
+  Serial.println(" ✅");
+  return true;
 }
 
 bool checkGitHubVersion() {
