@@ -1,6 +1,6 @@
 {
-  "latest_version": "V3",
-  "available_versions": ["V3"],
-  "latest_binary": "latest/Transmitter_V3.ino.bin",
-  "latest_source": "latest/Transmitter_V3.ino"
+  "latest_version": "V5",
+  "available_versions": ["V5"],
+  "latest_binary": "latest/Transmitter_V5.ino.bin",
+  "latest_source": "latest/Transmitter_V5.ino"
 }

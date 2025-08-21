@@ -1,8 +1,8 @@
 {
-  "version": "V4",
+  "version": "V5",
   "device_type": "transmitter", 
-  "binary_file": "Transmitter_V4.ino.bin",
-  "source_file": "Transmitter_V4.ino",
+  "binary_file": "Transmitter_V5.ino.bin",
+  "source_file": "Transmitter_V5.ino",
   "build_path": "build/esp8266.esp8266.generic/",
   "hardware_target": "esp8266.esp8266.generic",
   "release_type": "stable"

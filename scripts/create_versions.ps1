@@ -3,9 +3,9 @@ $versionFiles = @{
     "firmware\versions.json" = @"
 {
   "transmitter": {
-    "current_version": "V3",
-    "latest_path": "transmitter/latest/Transmitter_V3.ino.bin",
-    "versioned_path": "transmitter/Transmitter_V3/Transmitter_V3.ino.bin"
+    "current_version": "V5",
+    "latest_path": "transmitter/latest/Transmitter_V5.ino.bin",
+    "versioned_path": "transmitter/Transmitter_V5/Transmitter_V5.ino.bin"
   },
   "receiver": {
     "current_version": "V3", 

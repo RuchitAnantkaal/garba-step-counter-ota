@@ -1,9 +1,9 @@
 {
   "transmitter": {
-    "current_version": "V3",
-    "latest_path": "transmitter/latest/Transmitter_V3.ino.bin",
-    "versioned_path": "transmitter/Transmitter_V3/Transmitter_V3.ino.bin",
-    "source_file": "transmitter/latest/Transmitter_V3.ino",
+    "current_version": "V5",
+    "latest_path": "transmitter/latest/Transmitter_V5.ino.bin",
+    "versioned_path": "transmitter/Transmitter_V5/Transmitter_V5.ino.bin",
+    "source_file": "transmitter/latest/Transmitter_V5.ino",
     "last_updated": "2024-12-19T10:30:00Z"
   },
   "receiver": {

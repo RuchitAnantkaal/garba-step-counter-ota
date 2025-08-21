@@ -12,15 +12,15 @@ $rootVersions = @"
     "total_devices": 4050
   },
   "transmitter": {
-    "current_version": "V3",
+    "current_version": "V5",
     "device_count": 4000,
-    "latest_binary": "transmitter/latest/build/esp8266.esp8266.generic/Transmitter_V3.ino.bin",
-    "stable_binary": "transmitter/Transmitter_V3/build/esp8266.esp8266.generic/Transmitter_V3.ino.bin",
+    "latest_binary": "transmitter/latest/build/esp8266.esp8266.generic/Transmitter_V5.ino.bin",
+    "stable_binary": "transmitter/Transmitter_V5/build/esp8266.esp8266.generic/Transmitter_V5.ino.bin",
     "hardware": "ESP8266"
   },
   "receiver": {
     "current_version": "V3",
-    "device_count": 50,
+    "device_count": 100,
     "latest_binary": "Receiver/latest/build/esp8266.esp8266.generic/Receiver_V3.ino.bin",
     "stable_binary": "Receiver/Receiver_V3/build/esp8266.esp8266.generic/Receiver_V3.ino.bin",
     "hardware": "ESP8266"
@@ -40,12 +40,12 @@ $transmitterVersions = @"
 {
   "device_type": "transmitter",
   "hardware": "ESP8266",
-  "current_version": "V3",
+  "current_version": "V5",
   "available_versions": {
     "V3": {
-      "latest": "latest/build/esp8266.esp8266.generic/Transmitter_V3.ino.bin",
-      "stable": "Transmitter_V3/build/esp8266.esp8266.generic/Transmitter_V3.ino.bin",
-      "source": "latest/Transmitter_V3.ino"
+      "latest": "latest/build/esp8266.esp8266.generic/Transmitter_V5.ino.bin",
+      "stable": "Transmitter_V5/build/esp8266.esp8266.generic/Transmitter_V5.ino.bin",
+      "source": "latest/Transmitter_V5.ino"
     }
   },
   "ota_enabled": true,
@@ -56,14 +56,14 @@ $transmitterVersions = @"
 # 3. Transmitter latest versions.json
 $transmitterLatestVersions = @"
 {
-  "version": "V3",
+  "version": "V5",
   "device_type": "transmitter",
   "hardware_target": "esp8266.esp8266.generic",
   "files": {
-    "source": "Transmitter_V3.ino",
-    "binary": "build/esp8266.esp8266.generic/Transmitter_V3.ino.bin",
-    "elf": "build/esp8266.esp8266.generic/Transmitter_V3.ino.elf",
-    "map": "build/esp8266.esp8266.generic/Transmitter_V3.ino.map"
+    "source": "Transmitter_V5.ino",
+    "binary": "build/esp8266.esp8266.generic/Transmitter_V5.ino.bin",
+    "elf": "build/esp8266.esp8266.generic/Transmitter_V5.ino.elf",
+    "map": "build/esp8266.esp8266.generic/Transmitter_V5.ino.map"
   },
   "features": [
     "ESP-NOW broadcast mode",
@@ -80,23 +80,23 @@ $transmitterLatestVersions = @"
 }
 "@
 
-# 4. Transmitter V3 versions.json
+# 4. Transmitter V5 versions.json
 $transmitterV3Versions = @"
 {
-  "version": "V3",
+  "version": "V5",
   "device_type": "transmitter",
   "hardware_target": "esp8266.esp8266.generic",
   "files": {
-    "source": "Transmitter_V3.ino",
-    "binary": "build/esp8266.esp8266.generic/Transmitter_V3.ino.bin",
-    "elf": "build/esp8266.esp8266.generic/Transmitter_V3.ino.elf",
-    "map": "build/esp8266.esp8266.generic/Transmitter_V3.ino.map"
+    "source": "Transmitter_V5.ino",
+    "binary": "build/esp8266.esp8266.generic/Transmitter_V5.ino.bin",
+    "elf": "build/esp8266.esp8266.generic/Transmitter_V5.ino.elf",
+    "map": "build/esp8266.esp8266.generic/Transmitter_V5.ino.map"
   },
   "changelog": [
-    "V3: Added ESP-NOW broadcast mode for roaming support",
-    "V3: Improved power efficiency with WiFi sleep modes",
-    "V3: Enhanced step detection accuracy",
-    "V3: Added OTA update support"
+    "V5: Added ESP-NOW broadcast mode for roaming support",
+    "V5: Improved power efficiency with WiFi sleep modes",
+    "V5: Enhanced step detection accuracy",
+    "V5: Added OTA update support"
   ],
   "build_info": {
     "compiled": "$(Get-Date -Format 'yyyy-MM-ddTHH:mm:ssZ')",
