@@ -29,8 +29,8 @@ const char* DEVICE_TYPE = "receiver";
 String currentRunningVersion = "";
 
 // GitHub URLs for version check and firmware download
-String versionCheckURL = "https://api.github.com/repos/" + String(GITHUB_USER) + "/" + String(GITHUB_REPO) + "/contents/firmware/Receiver_ESP32_V1/latest/versions.json";
-String firmwareBaseURL = "https://raw.githubusercontent.com/" + String(GITHUB_USER) + "/" + String(GITHUB_REPO) + "/main/firmware/Receiver_ESP32_V1/latest/build/esp32.esp32.esp32/";
+String versionCheckURL = "https://api.github.com/repos/" + String(GITHUB_USER) + "/" + String(GITHUB_REPO) + "/contents/firmware/Receiver_ESP32/latest/versions.json";
+String firmwareBaseURL = "https://raw.githubusercontent.com/" + String(GITHUB_USER) + "/" + String(GITHUB_REPO) + "/main/firmware/Receiver_ESP32/latest/build/esp32.esp32.esp32/";
 
 // Central server configuration
 const char* serverHost = "garba.local";
