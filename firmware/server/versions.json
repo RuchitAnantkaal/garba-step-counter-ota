@@ -1,0 +1,6 @@
+{
+  "latest_version": "v3",
+  "available_versions": ["v3"],
+  "latest_binary": "latest/Server_v3.ino.bin",
+  "latest_source": "latest/Server_v3.ino"
+}

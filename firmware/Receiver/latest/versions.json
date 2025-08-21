@@ -1,0 +1,8 @@
+{
+  "version": "V3",
+  "device_type": "receiver",
+  "binary_file": "Receiver_V3.ino.bin", 
+  "source_file": "Receiver_V3.ino",
+  "build_path": "build/esp8266.esp8266.generic/",
+  "hardware_target": "esp8266.esp8266.generic"
+}

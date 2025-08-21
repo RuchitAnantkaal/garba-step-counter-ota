@@ -1,0 +1,23 @@
+{
+  "transmitter": {
+    "current_version": "V3",
+    "latest_path": "transmitter/latest/Transmitter_V3.ino.bin",
+    "versioned_path": "transmitter/Transmitter_V3/Transmitter_V3.ino.bin",
+    "source_file": "transmitter/latest/Transmitter_V3.ino",
+    "last_updated": "2024-12-19T10:30:00Z"
+  },
+  "receiver": {
+    "current_version": "V3", 
+    "latest_path": "Receiver/latest/Receiver_V3.ino.bin",
+    "versioned_path": "Receiver/Receiver_V3/Receiver_V3.ino.bin",
+    "source_file": "Receiver/latest/Receiver_V3.ino",
+    "last_updated": "2024-12-19T10:30:00Z"
+  },
+  "server": {
+    "current_version": "v3",
+    "latest_path": "server/latest/Server_v3.ino.bin", 
+    "versioned_path": "server/Server_v3/Server_v3.ino.bin",
+    "source_file": "server/latest/Server_v3.ino",
+    "last_updated": "2024-12-19T10:30:00Z"
+  }
+}

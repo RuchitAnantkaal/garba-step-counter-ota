@@ -1,0 +1,9 @@
+{
+  "version": "V3",
+  "device_type": "transmitter", 
+  "binary_file": "Transmitter_V3.ino.bin",
+  "source_file": "Transmitter_V3.ino",
+  "build_path": "build/esp8266.esp8266.generic/",
+  "hardware_target": "esp8266.esp8266.generic",
+  "release_type": "stable"
+}
