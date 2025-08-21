@@ -22,7 +22,7 @@ const char* password = "Setupdev@123";
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* FIRMWARE_VERSION = "V3";
+const char* FIRMWARE_VERSION = "V1";
 const char* DEVICE_TYPE = "receiver";
 
 // Current running version (loaded from EEPROM or firmware default)
@@ -96,7 +96,9 @@ void setup() {
   Serial.println("========================================");
   Serial.print("Running Version: ");
   Serial.println(currentRunningVersion);
-  
+
+  WiFi.mode(WIFI_STA);
+   delay(500);
   // Get receiver ID from MAC address
   receiverId = WiFi.macAddress();
   Serial.print("Receiver ID: ");

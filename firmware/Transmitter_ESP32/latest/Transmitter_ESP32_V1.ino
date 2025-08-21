@@ -44,7 +44,7 @@ bool securityCheckPassed = false;
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* FIRMWARE_VERSION = "V7";
+const char* FIRMWARE_VERSION = "V1";
 const char* DEVICE_TYPE = "transmitter";
 
 // Current running version (loaded from EEPROM or firmware default)
@@ -130,7 +130,8 @@ void setup() {
   
   // Load current version from EEPROM or use firmware default
   loadCurrentVersion();
-  
+  WiFi.mode(WIFI_STA);
+  delay(500);
   Serial.println("\n========================================");
   Serial.println("    ESP32 Transmitter with GitHub OTA    ");
   Serial.println("========================================");
