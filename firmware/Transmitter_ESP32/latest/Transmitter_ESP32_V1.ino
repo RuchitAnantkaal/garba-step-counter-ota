@@ -428,7 +428,7 @@ void performOTAUpdate() {
   Serial.println("\n⚡ FAST OTA UPDATE ⚡");
   
   // Construct dynamic firmware download URL
-  String firmwareURL = firmwareBaseURL + "Transmitter_" + latestVersionFromGitHub + ".ino.bin";
+  String firmwareURL = firmwareBaseURL + "Transmitter_ESP32_" + latestVersionFromGitHub + ".ino.bin";
   Serial.println("🔗 URL: " + firmwareURL);
   
   // Quick LED blink

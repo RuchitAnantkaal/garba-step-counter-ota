@@ -308,7 +308,7 @@ void performOTAUpdate() {
   Serial.println("\n🔄 Starting Receiver OTA update process...");
   
   // Construct dynamic firmware download URL based on latest version
-  String firmwareURL = firmwareBaseURL + "Receiver_" + latestVersionFromGitHub + ".ino.bin";
+  String firmwareURL = firmwareBaseURL + "Receiver_ESP32_" + latestVersionFromGitHub + ".ino.bin";
   Serial.println("🔗 Firmware URL: " + firmwareURL);
   Serial.println("📦 Downloading receiver version: " + latestVersionFromGitHub);
   
