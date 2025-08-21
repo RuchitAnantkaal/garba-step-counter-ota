@@ -59,7 +59,7 @@ const float magnitudeThreshold = 30.0;
 const float restPosition = 250.0;
 const float forwardPosition = 220.0;
 const unsigned long stepDelay = 300; // Minimum time between steps (ms)
-const unsigned long transmitInterval = 60000; // 1 minute in milliseconds
+const unsigned long transmitInterval = 1000; // 1 minute in milliseconds
 
 // Debug mode configuration
 const bool DEBUG_MODE = true;
