@@ -94,8 +94,6 @@ void setup() {
   Serial.println("\n========================================");
   Serial.println("     Receiver with GitHub OTA Test     ");
   Serial.println("========================================");
-  Serial.print("Firmware Version: ");
-  Serial.println(FIRMWARE_VERSION);
   Serial.print("Running Version: ");
   Serial.println(currentRunningVersion);
   
