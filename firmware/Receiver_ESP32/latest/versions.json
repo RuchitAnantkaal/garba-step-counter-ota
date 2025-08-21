@@ -1,0 +1,9 @@
+{
+  "version": "V1",
+  "device_type": "receiver",
+  "binary_file": "Receiver_ESP32_V1.ino.bin",
+  "source_file": "Receiver_ESP32_V1.ino", 
+  "build_path": "build/esp8266.esp8266.generic/",
+  "hardware_target": "esp8266.esp8266.generic",
+  "release_type": "stable"
+}
