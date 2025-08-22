@@ -22,7 +22,7 @@ const char* password = "Setupdev@123";
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* FIRMWARE_VERSION = "V3";
+const char* FIRMWARE_VERSION = "V4";
 const char* DEVICE_TYPE = "receiver";
 
 // Current running version (loaded from EEPROM or firmware default)
@@ -33,7 +33,7 @@ String versionCheckURL = "https://api.github.com/repos/" + String(GITHUB_USER) +
 String firmwareBaseURL = "https://raw.githubusercontent.com/" + String(GITHUB_USER) + "/" + String(GITHUB_REPO) + "/main/firmware/Receiver/latest/build/esp8266.esp8266.generic/";
 
 // Central server configuration
-const char* serverHost = "garba.local";
+const char* serverHost = "192.168.29.100:3000";
 const char* serverEndpoint = "/api/receiver-data";
 
 // HTTP client

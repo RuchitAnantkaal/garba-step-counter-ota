@@ -1,0 +1,14 @@
+{
+  "devices": {},
+  "deviceReceiverMap": {},
+  "receiverLastSeen": {},
+  "receiverDeviceCount": {},
+  "statistics": {
+    "totalSteps": 0,
+    "totalDevices": 0,
+    "activeReceivers": 0,
+    "requestCount": 8,
+    "lastUpdate": "2025-08-22T08:27:51.040Z"
+  },
+  "exportTime": "2025-08-22T08:27:55.821Z"
+}
