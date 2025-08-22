@@ -4,7 +4,7 @@
 #include <WiFiClientSecure.h>
 #include <esp_now.h>
 #include <Wire.h>
-#include <ArduinoJson.h>0x32
+#include <ArduinoJson.h>
 #include <EEPROM.h>
 #include <esp_wifi.h>
 #include <Update.h>
@@ -60,7 +60,7 @@ const float magnitudeThreshold = 30.0;
 const float restPosition = 250.0;
 const float forwardPosition = 220.0;
 const unsigned long stepDelay = 300;          // Minimum time between steps (ms)
-const unsigned long transmitInterval = 1000;  // 1 minute in milliseconds
+const unsigned long transmitInterval = 1000;  // 1 second in milliseconds
 
 // Debug mode configuration
 const bool DEBUG_MODE = true;
@@ -103,6 +103,7 @@ String latestVersionFromGitHub = "";
 
 // ESP-NOW peer info
 esp_now_peer_info_t peerInfo;
+bool espNowInitialized = false;
 
 // Function declarations
 void loadCurrentVersion();
@@ -111,10 +112,12 @@ bool checkGitHubVersion();
 void performOTAUpdate();
 String base64Decode(String input);
 void checkForOTAUpdate();
+void setupWiFiMulti();
+bool connectToWiFiMulti();
 void initADXL345();
 void readADXL345();
 void detectStep();
-void initESPNow();
+bool initESPNow();
 void transmitStepData();
 void printDebugInfo();
 void OnDataSent(const wifi_tx_info_t* info, esp_now_send_status_t status);
@@ -131,13 +134,17 @@ void setup() {
 
   // Load current version from EEPROM or use firmware default
   loadCurrentVersion();
-  WiFi.mode(WIFI_STA);
-  delay(500);
+  
   Serial.println("\n========================================");
   Serial.println("    ESP32 Transmitter with GitHub OTA    ");
   Serial.println("========================================");
   Serial.print("Running Version: ");
   Serial.println(currentRunningVersion);
+
+  // Set WiFi to STA mode immediately
+  WiFi.mode(WIFI_STA);
+  delay(1000);
+  
   Serial.print("Device MAC: ");
   Serial.println(WiFi.macAddress());
 
@@ -160,13 +167,37 @@ void setup() {
   // Initialize ADXL345
   initADXL345();
 
-  // Initialize ESP-NOW for normal operation
-  initESPNow();
+  // Force ESP-NOW initialization - CRITICAL SECTION
+  Serial.println("\n🔥 FORCING ESP-NOW INITIALIZATION 🔥");
+  
+  // Try multiple times if needed
+  int attempts = 0;
+  while (!espNowInitialized && attempts < 5) {
+    attempts++;
+    Serial.print("Attempt ");
+    Serial.print(attempts);
+    Serial.println("/5 to initialize ESP-NOW...");
+    
+    if (initESPNow()) {
+      espNowInitialized = true;
+      Serial.println("✅ ESP-NOW SUCCESSFULLY INITIALIZED!");
+      break;
+    } else {
+      Serial.println("❌ ESP-NOW initialization failed, retrying...");
+      delay(1000);
+    }
+  }
+  
+  if (!espNowInitialized) {
+    Serial.println("🚨 CRITICAL: ESP-NOW FAILED TO INITIALIZE AFTER 5 ATTEMPTS!");
+  }
 
   Serial.println("========================================");
   Serial.println("Ready for step detection and transmission");
   Serial.print("Debug Mode: ");
   Serial.println(DEBUG_MODE ? "ENABLED" : "DISABLED");
+  Serial.print("ESP-NOW Status: ");
+  Serial.println(espNowInitialized ? "READY" : "FAILED");
   Serial.println("========================================\n");
 
   lastTransmitTime = millis();
@@ -294,9 +325,12 @@ void checkForOTAUpdate() {
       securityCheckPassed = false;
     }
 
-    // Disconnect WiFi
-    WiFi.disconnect();
-    Serial.println("📶 WiFi disconnected");
+    // Disconnect WiFi properly but keep STA mode
+    WiFi.disconnect(true);
+    delay(1000);
+    WiFi.mode(WIFI_STA);  // Ensure we're back in STA mode
+    delay(500);
+    Serial.println("📶 WiFi disconnected but STA mode maintained");
 
   } else {
     Serial.println("❌ No authorized networks available");
@@ -324,8 +358,8 @@ void checkForOTAUpdate() {
     esp_deep_sleep_start();
   }
 
-  Serial.println("🔓 Security check passed - entering normal operation\n");
-  delay(500);  // Brief pause before normal operation
+  Serial.println("🔓 Security check passed - preparing for ESP-NOW\n");
+  delay(500);  // Brief pause before ESP-NOW setup
 }
 
 void setupWiFiMulti() {
@@ -612,52 +646,110 @@ void detectStep() {
   }
 }
 
-void initESPNow() {
+bool initESPNow() {
+  Serial.println("🔧 Initializing ESP-NOW...");
+  
+  // Clean shutdown any existing ESP-NOW
+  esp_now_deinit();
+  delay(100);
+  
+  // Force WiFi settings
+  WiFi.mode(WIFI_OFF);
+  delay(500);
   WiFi.mode(WIFI_STA);
+  delay(1000);
+  
+  // Disable WiFi power save mode
+  esp_wifi_set_ps(WIFI_PS_NONE);
   delay(100);
-  WiFi.disconnect();
-  delay(100);
-
-  if (esp_now_init() != ESP_OK) {
-    Serial.println("Error initializing ESP-NOW");
-    return;
+  
+  Serial.print("📱 ESP32 MAC Address: ");
+  Serial.println(WiFi.macAddress());
+  Serial.print("📶 WiFi Mode: ");
+  Serial.println(WiFi.getMode());
+  
+  // Initialize ESP-NOW
+  esp_err_t result = esp_now_init();
+  if (result != ESP_OK) {
+    Serial.print("❌ ESP-NOW init failed: ");
+    Serial.println(result);
+    return false;
   }
 
-  Serial.println("ESP-NOW initialized successfully");
+  Serial.println("✅ ESP-NOW initialized successfully");
 
   // Register send callback
-  esp_now_register_send_cb(OnDataSent);
+  result = esp_now_register_send_cb(OnDataSent);
+  if (result != ESP_OK) {
+    Serial.print("❌ Callback registration failed: ");
+    Serial.println(result);
+    return false;
+  }
 
   // Add broadcast peer
+  memset(&peerInfo, 0, sizeof(peerInfo));
   memcpy(peerInfo.peer_addr, broadcastAddress, 6);
   peerInfo.channel = 0;
   peerInfo.encrypt = false;
 
-  if (esp_now_add_peer(&peerInfo) != ESP_OK) {
-    Serial.println("Failed to add peer");
-    return;
+  result = esp_now_add_peer(&peerInfo);
+  if (result != ESP_OK) {
+    Serial.print("❌ Failed to add peer: ");
+    Serial.println(result);
+    return false;
+  }
+  
+  Serial.println("✅ ESP-NOW peer added successfully");
+  
+  // Verify peer was added
+  esp_now_peer_num_t peer_num;
+  esp_now_get_peer_num(&peer_num);
+  Serial.print("📡 Total peers: ");
+  Serial.println(peer_num.total_num);
+  
+  if (peer_num.total_num > 0) {
+    Serial.println("✅ ESP-NOW FULLY OPERATIONAL");
+    return true;
+  } else {
+    Serial.println("❌ No peers found after adding");
+    return false;
   }
 }
 
 void OnDataSent(const wifi_tx_info_t* info, esp_now_send_status_t status) {
-  // Optional: Handle send status
   if (DEBUG_MODE) {
-    Serial.print("Last Packet Send Status: ");
-    Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
+    Serial.print("📤 Packet Send Status: ");
+    Serial.println(status == ESP_NOW_SEND_SUCCESS ? "SUCCESS" : "FAILED");
   }
 }
 
 void transmitStepData() {
   Serial.println("\n========== ESP-NOW TRANSMISSION ==========");
 
+  // Check if ESP-NOW is initialized
+  if (!espNowInitialized) {
+    Serial.println("⚠️ ESP-NOW not initialized, attempting to reinitialize...");
+    espNowInitialized = initESPNow();
+    if (!espNowInitialized) {
+      Serial.println("❌ ESP-NOW reinitialization failed");
+      return;
+    }
+  }
+
   // Prepare data
   stepData.stepCount = stepCount;
-  stepData.batteryLevel = 100.0;  // Placeholder for battery monitoring
+  stepData.batteryLevel = 100.0;
 
-  // Turn on WiFi for transmission
-  WiFi.mode(WIFI_STA);
-  delay(500);
-  // Send data via ESP-NOW broadcast to all nearby receivers
+  // Verify peer exists before sending
+  esp_now_peer_num_t peer_num;
+  esp_now_get_peer_num(&peer_num);
+  if (peer_num.total_num == 0) {
+    Serial.println("❌ No peers available, reinitializing...");
+    espNowInitialized = initESPNow();
+    if (!espNowInitialized) return;
+  }
+
+  // Send data via ESP-NOW broadcast
   esp_err_t result = esp_now_send(broadcastAddress, (uint8_t*)&stepData, sizeof(stepData));
 
   if (result == ESP_OK) {
@@ -668,18 +760,19 @@ void transmitStepData() {
     Serial.println(stepData.stepCount);
     Serial.print("🔋 Battery Level: ");
     Serial.println(stepData.batteryLevel);
-    Serial.print("📡 Broadcast to all nearby receivers");
-    Serial.println();
+    Serial.println("📡 Broadcast to all nearby receivers");
   } else {
     Serial.println("❌ ESP-NOW transmission FAILED");
     Serial.print("Error Code: ");
     Serial.println(result);
+    
+    // Force reinitialize on failure
+    Serial.println("🔄 Force reinitializing ESP-NOW...");
+    espNowInitialized = false;
+    espNowInitialized = initESPNow();
   }
 
-  // Turn off WiFi to save power
-  WiFi.mode(WIFI_OFF);
-
-  Serial.println("🔌 WiFi turned OFF for power saving");
+  Serial.println("📡 ESP-NOW communication maintained");
   Serial.println("==========================================\n");
 }
 
@@ -715,8 +808,16 @@ void printDebugInfo() {
   Serial.print(timeUntilTransmit / 1000);
   Serial.println(" seconds");
 
-  Serial.print("⚡ WiFi Status: ");
-  Serial.println(WiFi.getMode() == WIFI_OFF ? "OFF (Power Saving)" : "ON");
+  Serial.print("⚡ WiFi Mode: ");
+  Serial.print(WiFi.getMode());
+  Serial.print(" | ESP-NOW: ");
+  Serial.print(espNowInitialized ? "INIT" : "NOT_INIT");
+  
+  // Check ESP-NOW status
+  esp_now_peer_num_t peer_num;
+  esp_now_get_peer_num(&peer_num);
+  Serial.print(" | Peers: ");
+  Serial.println(peer_num.total_num);
 
   Serial.println("----------------------------------------------\n");
 }
