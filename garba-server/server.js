@@ -572,9 +572,9 @@ body {
   z-index: 1;
   transition: all 0.3s ease;
 }
-.step-count.animate {
-  transform: scale(1.1);
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 20px rgba(255,255,255,0.5);
+.step-count.glow {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.6);
+  transform: scale(1.02);
 }
 .step-label { 
   font-size: 1.5rem; 
@@ -617,53 +617,86 @@ body {
   font-weight: 500;
 }
 
-/* Popup animation styles */
-.step-popup {
+/* Bigger popup with splash effect for step increments */
+.step-increment-popup {
+  position: absolute;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6), 0 0 8px currentColor;
+  pointer-events: none;
+  z-index: 10;
+  animation: splashPopup 2.5s ease-out forwards;
+  white-space: nowrap;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.step-increment-popup::before {
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, currentColor 0%, transparent 70%);
+  border-radius: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #10b981;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 10px rgba(16, 185, 129, 0.6);
-  pointer-events: none;
-  z-index: 10;
-  animation: naturalPopup 3s ease-out forwards;
+  animation: splashEffect 2.5s ease-out forwards;
+  z-index: -1;
+  opacity: 0.3;
 }
 
-@keyframes naturalPopup {
+@keyframes splashPopup {
   0% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.3);
+    transform: scale(0.3) translateY(0) rotate(-5deg);
   }
   10% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: scale(1.3) translateY(-8px) rotate(2deg);
   }
-  25% {
+  20% {
+    transform: scale(1) translateY(-15px) rotate(0deg);
+  }
+  80% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  50% {
-    opacity: 0.9;
-    transform: translate(-50%, -80%) scale(0.9);
-  }
-  75% {
-    opacity: 0.5;
-    transform: translate(-50%, -120%) scale(0.7);
+    transform: scale(0.9) translateY(-35px) rotate(0deg);
   }
   100% {
     opacity: 0;
-    transform: translate(-50%, -150%) scale(0.5);
+    transform: scale(0.7) translateY(-50px) rotate(0deg);
   }
 }
 
-/* Number counting animation - slower and smoother */
+@keyframes splashEffect {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  15% {
+    width: 60px;
+    height: 60px;
+    opacity: 0.4;
+  }
+  30% {
+    width: 90px;
+    height: 90px;
+    opacity: 0.3;
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+
+/* Number counting animation - faster and snappier */
 @keyframes countUp {
   0% { 
-    transform: translateY(10px) scale(0.98); 
-    opacity: 0.8; 
+    transform: translateY(8px) scale(0.98); 
+    opacity: 0.7; 
   }
   100% { 
     transform: translateY(0) scale(1); 
@@ -672,7 +705,7 @@ body {
 }
 
 .counting {
-  animation: countUp 0.8s ease-out;
+  animation: countUp 0.4s ease-out;
 }
 
 /* Pulse effect for stats - gentler */
@@ -699,7 +732,6 @@ body {
   .title { font-size: 2.5rem; }
   .step-count { font-size: 3.5rem; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
-  .step-popup { font-size: 1.8rem; }
 }
 </style>
 </head><body>
@@ -733,7 +765,14 @@ let previousDevices = 0;
 let previousReceivers = 0;
 
 function formatNumber(num) { 
-  return num.toLocaleString(); 
+  // For main display - show abbreviated form after 1,00,000 (1 Lakh)
+  if (num >= 10000000) { // 1 Crore (10 Million)
+    return (num / 10000000).toFixed(1) + 'Cr';
+  } else if (num >= 100000) { // 1 Lakh (100 Thousand)
+    return (num / 100000).toFixed(1) + 'L';
+  } else {
+    return num.toLocaleString();
+  }
 }
 
 function formatTime(seconds) {
@@ -753,9 +792,9 @@ function animateNumber(elementId, newValue, previousValue, delay = 0) {
       // Add counting animation class
       element.classList.add('counting');
       
-      // Slower, more natural counting animation
-      const duration = Math.min(2000, Math.max(800, difference * 20)); // Slower duration
-      const steps = Math.min(30, difference); // Fewer steps for smoother animation
+      // Much faster counting animation
+      const duration = Math.min(800, Math.max(300, difference * 5)); // Faster duration
+      const steps = Math.min(40, Math.max(15, difference)); // More steps for smoother but faster animation
       const increment = difference / steps;
       const stepDuration = duration / steps;
       
@@ -786,11 +825,63 @@ function animateNumber(elementId, newValue, previousValue, delay = 0) {
   }
 }
 
-function showStepIncrement(increment) {
+function showSmallStepPopup(increment) {
   const stepDisplay = document.querySelector('.step-display');
   const popup = document.createElement('div');
-  popup.className = 'step-popup';
-  popup.textContent = '+' + formatNumber(increment);
+  popup.className = 'step-increment-popup';
+  
+  // Format large numbers with abbreviations for popup display
+  let displayText;
+  if (increment >= 1000000000000) { // Trillion
+    displayText = '+' + (increment / 1000000000000).toFixed(1) + 'T';
+  } else if (increment >= 1000000000) { // Billion
+    displayText = '+' + (increment / 1000000000).toFixed(1) + 'B';
+  } else if (increment >= 1000000) { // Million
+    displayText = '+' + (increment / 1000000).toFixed(1) + 'M';
+  } else if (increment >= 1000) { // Thousand
+    displayText = '+' + (increment / 1000).toFixed(1) + 'K';
+  } else {
+    displayText = '+' + formatNumber(increment);
+  }
+  
+  popup.textContent = displayText;
+  
+  // Array of vibrant colors that change each time
+  const colors = [
+    '#10b981', // Emerald
+    '#f59e0b', // Amber
+    '#ef4444', // Red
+    '#3b82f6', // Blue
+    '#8b5cf6', // Purple
+    '#06b6d4', // Cyan
+    '#f97316', // Orange
+    '#84cc16', // Lime
+    '#ec4899', // Pink
+    '#14b8a6', // Teal
+    '#6366f1', // Indigo
+    '#f43f5e'  // Rose
+  ];
+  
+  // Get random color
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  popup.style.color = randomColor;
+  
+  // More strategic positioning to avoid main number area
+  const positions = [
+    { top: '5%', right: '5%' },      // Far top right
+    { top: '5%', left: '5%' },       // Far top left
+    { bottom: '15%', right: '8%' },  // Bottom right
+    { bottom: '15%', left: '8%' },   // Bottom left
+    { top: '35%', right: '2%' },     // Mid right edge
+    { top: '35%', left: '2%' },      // Mid left edge
+    { top: '20%', right: '15%' },    // Upper right corner
+    { top: '20%', left: '15%' },     // Upper left corner
+    { bottom: '35%', right: '3%' },  // Lower right edge
+    { bottom: '35%', left: '3%' }    // Lower left edge
+  ];
+  
+  const randomPos = positions[Math.floor(Math.random() * positions.length)];
+  Object.assign(popup.style, randomPos);
   
   stepDisplay.appendChild(popup);
   
@@ -799,7 +890,7 @@ function showStepIncrement(increment) {
     if (popup.parentNode) {
       popup.parentNode.removeChild(popup);
     }
-  }, 3000); // Increased to match longer animation
+  }, 2500);
 }
 
 function animateStatCard(elementId) {
@@ -820,20 +911,20 @@ function updateDashboard() {
       const newDevices = data.totalDevices;
       const newReceivers = data.activeReceivers;
       
-      // Handle step count animation
+      // Handle step count with glow effect and small popup
       if (newSteps > previousSteps) {
         const increment = newSteps - previousSteps;
         
-        // Show popup animation first
-        showStepIncrement(increment);
+        // Show small popup outside the main number
+        showSmallStepPopup(increment);
         
-        // Add glow animation to step counter
+        // Add glow effect to step counter
         const stepElement = document.getElementById('totalSteps');
-        stepElement.classList.add('animate');
-        setTimeout(() => stepElement.classList.remove('animate'), 400);
+        stepElement.classList.add('glow');
+        setTimeout(() => stepElement.classList.remove('glow'), 600);
         
-        // Start number counting AFTER popup begins fading (1.5 seconds delay)
-        animateNumber('totalSteps', newSteps, previousSteps, 1500);
+        // Start number counting animation
+        animateNumber('totalSteps', newSteps, previousSteps, 0);
       } else {
         document.getElementById('totalSteps').textContent = formatNumber(newSteps);
       }
@@ -870,605 +961,6 @@ updateDashboard();
 
 // Update every 2 seconds
 setInterval(updateDashboard, 2000);
-</script>
-</body></html>
-  `);
-});
-
-// Debug console
-app.get('/debug', (req, res) => {
-  res.send(`
-<!DOCTYPE html>
-<html><head>
-<title>Debug Console - Garba Server</title>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { 
-  font-family: 'Segoe UI', sans-serif; 
-  background: #0a0e16; 
-  color: #e6edf3; 
-  min-height: 100vh;
-}
-.header { 
-  background: linear-gradient(135deg, #1e293b, #334155); 
-  padding: 1.5rem 2rem; 
-  border-bottom: 2px solid #475569; 
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-.header h1 { 
-  color: #60a5fa; 
-  margin: 0; 
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-.header p { 
-  color: #94a3b8; 
-  margin-top: 0.5rem;
-}
-.nav-bar { 
-  background: #1e293b; 
-  padding: 1rem 2rem; 
-  border-bottom: 1px solid #334155; 
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-.nav-btn { 
-  padding: 0.7rem 1.5rem; 
-  background: #334155; 
-  color: #e6edf3; 
-  text-decoration: none; 
-  border-radius: 8px; 
-  border: none; 
-  cursor: pointer; 
-  transition: all 0.2s;
-  font-weight: 500;
-}
-.nav-btn:hover { background: #475569; }
-.nav-btn.active { background: #3b82f6; color: white; }
-.nav-btn.home { background: #059669; }
-.nav-btn.danger { background: #dc2626; }
-.container { 
-  padding: 2rem; 
-  max-width: 1400px; 
-  margin: 0 auto; 
-}
-.stats-grid { 
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-  gap: 1.5rem; 
-  margin-bottom: 2rem; 
-}
-.stat-card { 
-  background: linear-gradient(135deg, #1e293b, #334155); 
-  padding: 1.5rem; 
-  border-radius: 12px; 
-  text-align: center; 
-  border: 1px solid #475569;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-.stat-value { 
-  font-size: 2.2rem; 
-  color: #60a5fa; 
-  font-weight: bold; 
-  margin-bottom: 0.5rem; 
-}
-.stat-label { 
-  color: #94a3b8; 
-  font-size: 0.9rem; 
-  font-weight: 500;
-}
-.section { 
-  background: linear-gradient(135deg, #1e293b, #334155); 
-  border-radius: 12px; 
-  padding: 1.5rem; 
-  margin-bottom: 1.5rem; 
-  border: 1px solid #475569;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-.section h3 { 
-  color: #f8fafc; 
-  margin-bottom: 1rem; 
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-.table { 
-  width: 100%; 
-  border-collapse: collapse; 
-  background: rgba(15, 23, 42, 0.5);
-  border-radius: 8px;
-  overflow: hidden;
-}
-.table th, .table td { 
-  padding: 1rem; 
-  text-align: left; 
-  border-bottom: 1px solid #334155; 
-}
-.table th { 
-  background: #0f172a; 
-  color: #94a3b8; 
-  font-weight: 600; 
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.table tr:hover { 
-  background: rgba(51, 65, 85, 0.5); 
-}
-.status-online { 
-  color: #10b981; 
-  font-weight: bold; 
-}
-.status-offline { 
-  color: #ef4444; 
-  font-weight: bold; 
-}
-.device-link, .receiver-link { 
-  color: #60a5fa; 
-  text-decoration: none; 
-  cursor: pointer; 
-  font-weight: 500;
-}
-.device-link:hover, .receiver-link:hover { 
-  text-decoration: underline; 
-  color: #93c5fd;
-}
-.log-entry { 
-  padding: 1rem; 
-  margin-bottom: 0.8rem; 
-  background: rgba(15, 23, 42, 0.7); 
-  border-radius: 8px; 
-  border-left: 4px solid #60a5fa; 
-}
-.log-entry.device-connect { border-left-color: #10b981; }
-.log-entry.device-disconnect { border-left-color: #ef4444; }
-.log-entry.receiver-connect { border-left-color: #f59e0b; }
-.log-entry.receiver-disconnect { border-left-color: #ef4444; }
-.log-entry.system { border-left-color: #8b5cf6; }
-.log-time { 
-  color: #94a3b8; 
-  font-size: 0.8rem; 
-  font-weight: 500;
-}
-.log-message {
-  margin-top: 0.3rem;
-  font-weight: 500;
-}
-.hidden { display: none; }
-.controls { 
-  margin-bottom: 1.5rem; 
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-.empty-state {
-  text-align: center;
-  padding: 3rem;
-  color: #64748b;
-  font-style: italic;
-}
-@media (max-width: 768px) {
-  .nav-bar { flex-direction: column; }
-  .stats-grid { grid-template-columns: 1fr 1fr; }
-  .table { font-size: 0.9rem; }
-  .table th, .table td { padding: 0.7rem; }
-}
-</style>
-</head><body>
-
-<div class='header'>
-  <h1>🔧 Debug Console</h1>
-  <p>Enhanced monitoring and device management</p>
-</div>
-
-<div class='nav-bar'>
-  <button class='nav-btn active' onclick='showView("overview")'>📊 Overview</button>
-  <button class='nav-btn' onclick='showView("receivers")'>📡 Receivers</button>
-  <button class='nav-btn' onclick='showView("devices")'>📱 All Devices</button>
-  <button class='nav-btn' onclick='showView("logs")'>📋 Connection Logs</button>
-  <a href='/' class='nav-btn home'>🏠 Main Dashboard</a>
-  <button class='nav-btn danger' onclick='resetSystem()'>🗑️ Reset System</button>
-</div>
-
-<div class='container'>
-  <!-- Overview View -->
-  <div id='overview-view'>
-    <div class='stats-grid'>
-      <div class='stat-card'>
-        <div class='stat-value' id='totalSteps'>0</div>
-        <div class='stat-label'>Total Steps</div>
-      </div>
-      <div class='stat-card'>
-        <div class='stat-value' id='totalDevices'>0</div>
-        <div class='stat-label'>Active Devices</div>
-      </div>
-      <div class='stat-card'>
-        <div class='stat-value' id='activeReceivers'>0</div>
-        <div class='stat-label'>Active Receivers</div>
-      </div>
-      <div class='stat-card'>
-        <div class='stat-value' id='totalRequests'>0</div>
-        <div class='stat-label'>Total Requests</div>
-      </div>
-      <div class='stat-card'>
-        <div class='stat-value' id='uptime'>0s</div>
-        <div class='stat-label'>Server Uptime</div>
-      </div>
-    </div>
-    
-    <div class='section'>
-      <h3>📡 Active Receivers Summary</h3>
-      <div id='receiversOverview'>Loading...</div>
-    </div>
-    
-    <div class='section'>
-      <h3>🏆 Top Devices</h3>
-      <div id='topDevices'>Loading...</div>
-    </div>
-  </div>
-
-  <!-- Receivers View -->
-  <div id='receivers-view' class='hidden'>
-    <div class='section'>
-      <h3>📡 All Receivers</h3>
-      <div style='overflow-x: auto;'>
-        <table class='table'>
-          <thead>
-            <tr>
-              <th>Receiver ID</th>
-              <th>Devices</th>
-              <th>Total Steps</th>
-              <th>Status</th>
-              <th>Last Seen</th>
-              <th>First Connected</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody id='receiversTable'>
-            <tr><td colspan='7' class='empty-state'>Loading receivers...</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <!-- All Devices View -->
-  <div id='devices-view' class='hidden'>
-    <div class='section'>
-      <h3>📱 All Connected Devices</h3>
-      <div style='overflow-x: auto;'>
-        <table class='table'>
-          <thead>
-            <tr>
-              <th>Device ID</th>
-              <th>Current Steps</th>
-              <th>Peak Steps</th>
-              <th>Battery</th>
-              <th>Receiver</th>
-              <th>Signal</th>
-              <th>Status</th>
-              <th>Updates</th>
-              <th>First Seen</th>
-            </tr>
-          </thead>
-          <tbody id='devicesTable'>
-            <tr><td colspan='9' class='empty-state'>Loading devices...</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <!-- Connection Logs View -->
-  <div id='logs-view' class='hidden'>
-    <div class='controls'>
-      <button class='nav-btn' onclick='refreshLogs()'>🔄 Refresh Logs</button>
-      <button class='nav-btn' onclick='clearLogs()'>🗑️ Clear Logs</button>
-    </div>
-    <div class='section'>
-      <h3>📋 Connection Logs</h3>
-      <div id='connectionLogs'>Loading...</div>
-    </div>
-  </div>
-
-  <!-- Receiver Details View -->
-  <div id='receiver-details-view' class='hidden'>
-    <div class='controls'>
-      <button class='nav-btn' onclick='showView("receivers")'>← Back to Receivers</button>
-    </div>
-    <div class='section'>
-      <h3 id='receiverDetailsTitle'>Receiver Details</h3>
-      <div id='receiverDetailsContent'>Loading...</div>
-    </div>
-  </div>
-</div>
-
-<script>
-let currentView = 'overview';
-
-function showView(view) {
-  // Hide all views
-  document.querySelectorAll('[id$="-view"]').forEach(el => el.classList.add('hidden'));
-  
-  // Show selected view
-  document.getElementById(view + '-view').classList.remove('hidden');
-  
-  // Update nav buttons
-  document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-  if (event && event.target) event.target.classList.add('active');
-  
-  currentView = view;
-  loadViewData(view);
-}
-
-function loadViewData(view) {
-  switch(view) {
-    case 'overview':
-      updateOverview();
-      break;
-    case 'receivers':
-      updateReceiversTable();
-      break;
-    case 'devices':
-      updateDevicesTable();
-      break;
-    case 'logs':
-      updateLogs();
-      break;
-  }
-}
-
-function formatNumber(num) { 
-  return num.toLocaleString(); 
-}
-
-function formatTime(seconds) {
-  if (seconds < 60) return seconds + 's';
-  if (seconds < 3600) return Math.floor(seconds/60) + 'm';
-  if (seconds < 86400) return Math.floor(seconds/3600) + 'h';
-  return Math.floor(seconds/86400) + 'd';
-}
-
-function updateOverview() {
-  // Update stats
-  fetch('/api/dashboard-data')
-    .then(r => r.json())
-    .then(data => {
-      document.getElementById('totalSteps').textContent = formatNumber(data.totalSteps);
-      document.getElementById('totalDevices').textContent = data.totalDevices;
-      document.getElementById('activeReceivers').textContent = data.activeReceivers;
-      document.getElementById('totalRequests').textContent = formatNumber(data.totalRequests);
-      document.getElementById('uptime').textContent = formatTime(data.uptime);
-    })
-    .catch(() => console.error('Failed to update dashboard data'));
-    
-  // Update receivers overview - only show active receivers
-  fetch('/api/receivers')
-    .then(r => r.json())
-    .then(data => {
-      let html = '';
-      
-      // Filter to only show online receivers
-      const activeReceivers = data.receivers.filter(receiver => receiver.status === 'Online');
-      
-      if (activeReceivers.length === 0) {
-        html = '<div class="empty-state">No receivers currently online</div>';
-      } else {
-        activeReceivers.slice(0, 5).forEach(receiver => {
-          html += '<div style="margin:1rem 0; padding:1.2rem; background:rgba(15,23,42,0.7); border-radius:8px; border-left:4px solid #f59e0b;">';
-          html += '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">';
-          html += '<h4 style="color:#f8fafc;"><span class="receiver-link" onclick="showReceiverDetails(\\''+receiver.name+'\\')">📡 Receiver ' + receiver.name + '</span></h4>';
-          html += '<span class="status-online">Online</span>';
-          html += '</div>';
-          html += '<div style="color:#94a3b8; font-size:0.9rem;">';
-          html += receiver.deviceCount + ' devices • ' + formatNumber(receiver.totalSteps) + ' steps • Last seen ' + receiver.lastSeen + 's ago';
-          html += '</div>';
-          html += '</div>';
-        });
-        if (activeReceivers.length > 5) {
-          html += '<div style="text-align:center; margin-top:1rem;"><button class="nav-btn" onclick="showView(\\'receivers\\')">View All ' + activeReceivers.length + ' Active Receivers</button></div>';
-        }
-      }
-      document.getElementById('receiversOverview').innerHTML = html;
-    });
-    
-  // Update top devices - only show active devices
-  fetch('/api/devices')
-    .then(r => r.json())
-    .then(data => {
-      let html = '';
-      
-      // Filter to only show online devices
-      const activeDevices = data.devices.filter(device => device.status === 'Online');
-      
-      if (activeDevices.length === 0) {
-        html = '<div class="empty-state">No devices currently active</div>';
-      } else {
-        html += '<div style="overflow-x:auto;"><table class="table">';
-        html += '<thead><tr><th>Rank</th><th>Device ID</th><th>Steps</th><th>Battery</th><th>Receiver</th><th>Status</th></tr></thead><tbody>';
-        
-        activeDevices.slice(0, 10).forEach((device, index) => {
-          html += '<tr>';
-          html += '<td><strong style="color:#f59e0b;">#' + (index + 1) + '</strong></td>';
-          html += '<td>📱 ' + device.name + '</td>';
-          html += '<td><strong style="color:#10b981;">' + formatNumber(device.stepCount) + '</strong></td>';
-          html += '<td>' + device.batteryLevel + '%</td>';
-          html += '<td><span class="receiver-link" onclick="showReceiverDetails(\\''+device.receiverName+'\\')">📡 ' + device.receiverName + '</span></td>';
-          html += '<td><span class="status-online">Online</span></td>';
-          html += '</tr>';
-        });
-        
-        html += '</tbody></table></div>';
-        if (activeDevices.length > 10) {
-          html += '<div style="text-align:center; margin-top:1rem;"><button class="nav-btn" onclick="showView(\\'devices\\')">View All ' + activeDevices.length + ' Active Devices</button></div>';
-        }
-      }
-      document.getElementById('topDevices').innerHTML = html;
-    });
-}
-
-function updateReceiversTable() {
-  fetch('/api/receivers')
-    .then(r => r.json())
-    .then(data => {
-      let html = '';
-      if (data.receivers.length === 0) {
-        html = '<tr><td colspan="7" class="empty-state">No receivers currently connected</td></tr>';
-      } else {
-        data.receivers.forEach(receiver => {
-          html += '<tr>';
-          html += '<td><span class="receiver-link" onclick="showReceiverDetails(\\''+receiver.name+'\\')">📡 ' + receiver.name + '</span></td>';
-          html += '<td><strong>' + receiver.deviceCount + '</strong></td>';
-          html += '<td><strong style="color:#10b981;">' + formatNumber(receiver.totalSteps) + '</strong></td>';
-          html += '<td><span class="status-' + receiver.status.toLowerCase() + '">' + receiver.status + '</span></td>';
-          html += '<td>' + receiver.lastSeen + 's ago</td>';
-          html += '<td style="font-size:0.8rem;">' + receiver.firstSeen + '</td>';
-          html += '<td><button class="nav-btn" onclick="showReceiverDetails(\\''+receiver.name+'\\')">View Details</button></td>';
-          html += '</tr>';
-        });
-      }
-      document.getElementById('receiversTable').innerHTML = html;
-    })
-    .catch(() => {
-      document.getElementById('receiversTable').innerHTML = '<tr><td colspan="7" class="empty-state" style="color:#ef4444;">Failed to load receivers</td></tr>';
-    });
-}
-
-function updateDevicesTable() {
-  fetch('/api/devices')
-    .then(r => r.json())
-    .then(data => {
-      let html = '';
-      if (data.devices.length === 0) {
-        html = '<tr><td colspan="9" class="empty-state">No devices currently connected</td></tr>';
-      } else {
-        data.devices.forEach(device => {
-          html += '<tr>';
-          html += '<td>📱 ' + device.name + '</td>';
-          html += '<td><strong style="color:#10b981;">' + formatNumber(device.stepCount) + '</strong></td>';
-          html += '<td style="color:#f59e0b;">' + formatNumber(device.peakSteps) + '</td>';
-          html += '<td>' + device.batteryLevel + '%</td>';
-          html += '<td><span class="receiver-link" onclick="showReceiverDetails(\\''+device.receiverName+'\\')">📡 ' + device.receiverName + '</span></td>';
-          html += '<td>' + device.signalStrength + ' dBm</td>';
-          html += '<td><span class="status-' + device.status.toLowerCase() + '">' + device.status + '</span></td>';
-          html += '<td>' + device.totalUpdates + '</td>';
-          html += '<td style="font-size:0.8rem;">' + device.firstSeen + '</td>';
-          html += '</tr>';
-        });
-      }
-      document.getElementById('devicesTable').innerHTML = html;
-    })
-    .catch(() => {
-      document.getElementById('devicesTable').innerHTML = '<tr><td colspan="9" class="empty-state" style="color:#ef4444;">Failed to load devices</td></tr>';
-    });
-}
-
-function updateLogs() {
-  fetch('/api/logs')
-    .then(r => r.json())
-    .then(data => {
-      let html = '';
-      if (data.logs.length === 0) {
-        html = '<div class="empty-state">No connection logs yet</div>';
-      } else {
-        data.logs.forEach(log => {
-          html += '<div class="log-entry ' + log.type + '">';
-          html += '<div class="log-time">' + log.timestamp + '</div>';
-          html += '<div class="log-message">' + log.message + '</div>';
-          html += '</div>';
-        });
-      }
-      document.getElementById('connectionLogs').innerHTML = html;
-    })
-    .catch(() => {
-      document.getElementById('connectionLogs').innerHTML = '<div class="empty-state" style="color:#ef4444;">Failed to load logs</div>';
-    });
-}
-
-function showReceiverDetails(receiverId) {
-  fetch('/api/receiver/' + receiverId)
-    .then(r => r.json())
-    .then(data => {
-      document.getElementById('receiverDetailsTitle').textContent = '📡 Receiver ' + receiverId + ' Details';
-      
-      let html = '<div class="stats-grid" style="margin-bottom:2rem;">';
-      html += '<div class="stat-card"><div class="stat-value">' + data.deviceCount + '</div><div class="stat-label">Connected Devices</div></div>';
-      html += '<div class="stat-card"><div class="stat-value">' + formatNumber(data.totalSteps) + '</div><div class="stat-label">Total Steps</div></div>';
-      html += '<div class="stat-card"><div class="stat-value">' + data.lastSeen + 's</div><div class="stat-label">Last Seen</div></div>';
-      html += '<div class="stat-card"><div class="stat-value" style="font-size:1rem;">' + data.firstSeen + '</div><div class="stat-label">First Connected</div></div>';
-      html += '</div>';
-      
-      html += '<h4 style="margin-bottom:1rem; color:#f8fafc;">Connected Devices:</h4>';
-      
-      if (data.devices.length === 0) {
-        html += '<div class="empty-state">No devices currently connected to this receiver</div>';
-      } else {
-        html += '<div style="overflow-x:auto;"><table class="table">';
-        html += '<thead><tr><th>Device ID</th><th>Steps</th><th>Peak</th><th>Battery</th><th>Signal</th><th>Status</th><th>Last Seen</th><th>Updates</th></tr></thead>';
-        html += '<tbody>';
-        
-        data.devices.forEach(device => {
-          html += '<tr>';
-          html += '<td>📱 ' + device.name + '</td>';
-          html += '<td><strong style="color:#10b981;">' + formatNumber(device.stepCount) + '</strong></td>';
-          html += '<td style="color:#f59e0b;">' + formatNumber(device.peakSteps) + '</td>';
-          html += '<td>' + device.batteryLevel + '%</td>';
-          html += '<td>' + device.signalStrength + ' dBm</td>';
-          html += '<td><span class="status-' + device.status.toLowerCase() + '">' + device.status + '</span></td>';
-          html += '<td>' + device.lastSeen + 's ago</td>';
-          html += '<td>' + device.totalUpdates + '</td>';
-          html += '</tr>';
-        });
-        
-        html += '</tbody></table></div>';
-      }
-      
-      document.getElementById('receiverDetailsContent').innerHTML = html;
-      showView('receiver-details');
-    })
-    .catch(err => {
-      document.getElementById('receiverDetailsContent').innerHTML = '<div class="empty-state" style="color:#ef4444;">Error loading receiver details: ' + err.message + '</div>';
-      showView('receiver-details');
-    });
-}
-
-function resetSystem() {
-  if (confirm('⚠️ Reset ALL data including logs and device history?\\n\\nThis will clear everything and start fresh!\\n\\nThis action cannot be undone!')) {
-    fetch('/api/reset', {method: 'POST'})
-      .then(() => {
-        alert('✅ System completely reset! All data cleared - ready for fresh device connections');
-        // Force immediate refresh of current view
-        setTimeout(() => {
-          loadViewData(currentView);
-        }, 500);
-      })
-      .catch(() => {
-        alert('❌ Reset failed');
-      });
-  }
-}
-
-function refreshLogs() {
-  updateLogs();
-}
-
-function clearLogs() {
-  if (confirm('Clear all connection logs?')) {
-    // Note: This would need a separate API endpoint to clear logs only
-    alert('Log clearing not implemented yet');
-  }
-}
-
-// Auto-refresh every 3 seconds (except on receiver details page)
-setInterval(() => {
-  if (currentView !== 'receiver-details') {
-    loadViewData(currentView);
-  }
-}, 3000);
-
-// Initial load
-updateOverview();
 </script>
 </body></html>
   `);
