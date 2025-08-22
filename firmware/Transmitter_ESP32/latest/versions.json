@@ -1,8 +1,8 @@
 {
-  "version": "V2",
+  "version": "V3",
   "device_type": "transmitter", 
-  "binary_file": "Transmitter_ESP32_V2.ino.bin",
-  "source_file": "Transmitter_ESP32_V2.ino",
+  "binary_file": "Transmitter_ESP32_V3.ino.bin",
+  "source_file": "Transmitter_ESP32_V3.ino",
   "build_path": "build/esp32.esp32.esp32/",
   "hardware_target": "esp32.esp32.esp32",
   "release_type": "stable"
