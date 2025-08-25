@@ -45,7 +45,7 @@ bool securityCheckPassed = false;
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* FIRMWARE_VERSION = "V2";
+const char* FIRMWARE_VERSION = "V3";
 const char* DEVICE_TYPE = "transmitter";
 
 // Current running version (loaded from EEPROM or firmware default)

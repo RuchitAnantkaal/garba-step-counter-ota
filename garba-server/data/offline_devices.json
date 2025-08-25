@@ -1,0 +1,22 @@
+{
+  "14:33:5C:04:22:34": {
+    "id": "14:33:5C:04:22:34",
+    "stepCount": 0,
+    "batteryLevel": 100,
+    "bestReceiverId": "28:56:2F:78:B9:BC",
+    "lastSeen": 1756105141869,
+    "signalStrength": -50,
+    "offlineTime": 1756105447405,
+    "history": {
+      "firstSeen": 1756104319484,
+      "totalUpdates": 1851,
+      "peakSteps": 0,
+      "minBattery": 100,
+      "maxBattery": 100,
+      "lastOnlineTime": 1756105440235,
+      "totalOnlineTime": 0,
+      "disconnectionCount": 0,
+      "lastUpdate": 1756105440235
+    }
+  }
+}

@@ -22,7 +22,7 @@ const char* password = "Setupdev@123";
 // GitHub OTA Configuration
 const char* GITHUB_USER = "RuchitAnantkaal";
 const char* GITHUB_REPO = "garba-step-counter-ota";
-const char* FIRMWARE_VERSION = "V1";
+const char* FIRMWARE_VERSION = "V2";
 const char* DEVICE_TYPE = "receiver";
 
 // Current running version (loaded from EEPROM or firmware default)

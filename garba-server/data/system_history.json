@@ -1,0 +1,5098 @@
+[
+  {
+    "timestamp": 1756106720347,
+    "dateTime": "25/8/2025, 12:55:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 963,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1272,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 420
+  },
+  {
+    "timestamp": 1756106688147,
+    "dateTime": "25/8/2025, 12:54:48 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 884,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1240,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 387
+  },
+  {
+    "timestamp": 1756106685151,
+    "dateTime": "25/8/2025, 12:54:45 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 878,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1237,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 384
+  },
+  {
+    "timestamp": 1756106682148,
+    "dateTime": "25/8/2025, 12:54:42 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 871,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1234,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 381
+  },
+  {
+    "timestamp": 1756106679138,
+    "dateTime": "25/8/2025, 12:54:39 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 865,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1231,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 378
+  },
+  {
+    "timestamp": 1756106676140,
+    "dateTime": "25/8/2025, 12:54:36 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 859,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1228,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 375
+  },
+  {
+    "timestamp": 1756106673151,
+    "dateTime": "25/8/2025, 12:54:33 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 854,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1225,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 372
+  },
+  {
+    "timestamp": 1756106670149,
+    "dateTime": "25/8/2025, 12:54:30 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 848,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1222,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 369
+  },
+  {
+    "timestamp": 1756106667138,
+    "dateTime": "25/8/2025, 12:54:27 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 842,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1219,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 366
+  },
+  {
+    "timestamp": 1756106664138,
+    "dateTime": "25/8/2025, 12:54:24 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 836,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1216,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 363
+  },
+  {
+    "timestamp": 1756106661138,
+    "dateTime": "25/8/2025, 12:54:21 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 830,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1213,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 360
+  },
+  {
+    "timestamp": 1756106660720,
+    "dateTime": "25/8/2025, 12:54:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 829,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1213,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 360
+  },
+  {
+    "timestamp": 1756106660347,
+    "dateTime": "25/8/2025, 12:54:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 827,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1212,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 360
+  },
+  {
+    "timestamp": 1756106600341,
+    "dateTime": "25/8/2025, 12:53:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 706,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1152,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 300
+  },
+  {
+    "timestamp": 1756106540333,
+    "dateTime": "25/8/2025, 12:52:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 552,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1092,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 240
+  },
+  {
+    "timestamp": 1756106499432,
+    "dateTime": "25/8/2025, 12:51:39 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 474,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1052,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 199
+  },
+  {
+    "timestamp": 1756106496871,
+    "dateTime": "25/8/2025, 12:51:36 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 469,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1049,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 196
+  },
+  {
+    "timestamp": 1756106480318,
+    "dateTime": "25/8/2025, 12:51:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 423,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1032,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 180
+  },
+  {
+    "timestamp": 1756106420312,
+    "dateTime": "25/8/2025, 12:50:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 256,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 972,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 120
+  },
+  {
+    "timestamp": 1756106406435,
+    "dateTime": "25/8/2025, 12:50:06 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 223,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 959,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 106
+  },
+  {
+    "timestamp": 1756106405743,
+    "dateTime": "25/8/2025, 12:50:05 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 221,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 958,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 105
+  },
+  {
+    "timestamp": 1756106388431,
+    "dateTime": "25/8/2025, 12:49:48 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 177,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 941,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 88
+  },
+  {
+    "timestamp": 1756106385424,
+    "dateTime": "25/8/2025, 12:49:45 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 170,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 938,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 85
+  },
+  {
+    "timestamp": 1756106382436,
+    "dateTime": "25/8/2025, 12:49:42 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 165,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 935,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 82
+  },
+  {
+    "timestamp": 1756106379421,
+    "dateTime": "25/8/2025, 12:49:39 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 160,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 932,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 79
+  },
+  {
+    "timestamp": 1756106376423,
+    "dateTime": "25/8/2025, 12:49:36 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 155,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 929,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 76
+  },
+  {
+    "timestamp": 1756106373434,
+    "dateTime": "25/8/2025, 12:49:33 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 149,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 926,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 73
+  },
+  {
+    "timestamp": 1756106370423,
+    "dateTime": "25/8/2025, 12:49:30 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 143,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 923,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 70
+  },
+  {
+    "timestamp": 1756106367425,
+    "dateTime": "25/8/2025, 12:49:27 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 138,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 920,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 67
+  },
+  {
+    "timestamp": 1756106364431,
+    "dateTime": "25/8/2025, 12:49:24 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 132,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 917,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 64
+  },
+  {
+    "timestamp": 1756106363049,
+    "dateTime": "25/8/2025, 12:49:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 128,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 915,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 62
+  },
+  {
+    "timestamp": 1756106360311,
+    "dateTime": "25/8/2025, 12:49:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 123,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 912,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 60
+  },
+  {
+    "timestamp": 1756106287487,
+    "dateTime": "25/8/2025, 12:48:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 2547,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 840,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 1200
+  },
+  {
+    "timestamp": 1756106227476,
+    "dateTime": "25/8/2025, 12:47:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 2451,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 780,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 1140
+  },
+  {
+    "timestamp": 1756106167465,
+    "dateTime": "25/8/2025, 12:46:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 2345,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 720,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 1080
+  },
+  {
+    "timestamp": 1756106117672,
+    "dateTime": "25/8/2025, 12:45:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 2224,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 670,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 1030
+  },
+  {
+    "timestamp": 1756106107458,
+    "dateTime": "25/8/2025, 12:45:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 2198,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 660,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 1020
+  },
+  {
+    "timestamp": 1756106047449,
+    "dateTime": "25/8/2025, 12:44:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 2079,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 600,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 960
+  },
+  {
+    "timestamp": 1756105987445,
+    "dateTime": "25/8/2025, 12:43:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 41,
+    "activeReceivers": 2,
+    "totalRequests": 1945,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 540,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:A8",
+        "name": "76:7D:A8",
+        "offlineSince": "25/8/2025, 12:42:37 pm",
+        "offlineDuration": 29,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 900
+  },
+  {
+    "timestamp": 1756105927432,
+    "dateTime": "25/8/2025, 12:42:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 1808,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 480,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 840
+  },
+  {
+    "timestamp": 1756105885887,
+    "dateTime": "25/8/2025, 12:41:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1708,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 438,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 288,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 798
+  },
+  {
+    "timestamp": 1756105883016,
+    "dateTime": "25/8/2025, 12:41:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1700,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 435,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 285,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 795
+  },
+  {
+    "timestamp": 1756105879882,
+    "dateTime": "25/8/2025, 12:41:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1694,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 432,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 282,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 792
+  },
+  {
+    "timestamp": 1756105876881,
+    "dateTime": "25/8/2025, 12:41:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1687,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 429,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 279,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 789
+  },
+  {
+    "timestamp": 1756105873883,
+    "dateTime": "25/8/2025, 12:41:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1680,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 426,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 276,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 786
+  },
+  {
+    "timestamp": 1756105870882,
+    "dateTime": "25/8/2025, 12:41:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1673,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 423,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 273,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 783
+  },
+  {
+    "timestamp": 1756105867880,
+    "dateTime": "25/8/2025, 12:41:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1665,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 420,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 270,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 780
+  },
+  {
+    "timestamp": 1756105867427,
+    "dateTime": "25/8/2025, 12:41:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1662,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 420,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 269,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 780
+  },
+  {
+    "timestamp": 1756105864943,
+    "dateTime": "25/8/2025, 12:41:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1658,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 417,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 267,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 777
+  },
+  {
+    "timestamp": 1756105861883,
+    "dateTime": "25/8/2025, 12:41:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1650,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 414,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 264,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 774
+  },
+  {
+    "timestamp": 1756105858882,
+    "dateTime": "25/8/2025, 12:40:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1644,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 411,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 261,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 771
+  },
+  {
+    "timestamp": 1756105855877,
+    "dateTime": "25/8/2025, 12:40:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1637,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 408,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 258,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 768
+  },
+  {
+    "timestamp": 1756105852883,
+    "dateTime": "25/8/2025, 12:40:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1630,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 405,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 255,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 765
+  },
+  {
+    "timestamp": 1756105849881,
+    "dateTime": "25/8/2025, 12:40:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1624,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 402,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 252,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 762
+  },
+  {
+    "timestamp": 1756105846875,
+    "dateTime": "25/8/2025, 12:40:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1618,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 399,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 249,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 759
+  },
+  {
+    "timestamp": 1756105843878,
+    "dateTime": "25/8/2025, 12:40:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1610,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 396,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 246,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 756
+  },
+  {
+    "timestamp": 1756105840878,
+    "dateTime": "25/8/2025, 12:40:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1604,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 393,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 243,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 753
+  },
+  {
+    "timestamp": 1756105837886,
+    "dateTime": "25/8/2025, 12:40:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1598,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 390,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 240,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 750
+  },
+  {
+    "timestamp": 1756105836460,
+    "dateTime": "25/8/2025, 12:40:36 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1593,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 389,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 239,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 749
+  },
+  {
+    "timestamp": 1756105807414,
+    "dateTime": "25/8/2025, 12:40:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1504,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 360,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 209,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 720
+  },
+  {
+    "timestamp": 1756105799604,
+    "dateTime": "25/8/2025, 12:39:59 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1484,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 352,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 202,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 712
+  },
+  {
+    "timestamp": 1756105796606,
+    "dateTime": "25/8/2025, 12:39:56 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1477,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 349,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 199,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 709
+  },
+  {
+    "timestamp": 1756105793646,
+    "dateTime": "25/8/2025, 12:39:53 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1470,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 346,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 196,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 706
+  },
+  {
+    "timestamp": 1756105790615,
+    "dateTime": "25/8/2025, 12:39:50 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1463,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 343,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 193,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 703
+  },
+  {
+    "timestamp": 1756105789667,
+    "dateTime": "25/8/2025, 12:39:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1460,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 342,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 192,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 702
+  },
+  {
+    "timestamp": 1756105747409,
+    "dateTime": "25/8/2025, 12:39:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 1359,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 300,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 149,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 660
+  },
+  {
+    "timestamp": 1756105687406,
+    "dateTime": "25/8/2025, 12:38:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 41,
+    "activeReceivers": 2,
+    "totalRequests": 1215,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 240,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 89,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 600
+  },
+  {
+    "timestamp": 1756105627399,
+    "dateTime": "25/8/2025, 12:37:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 41,
+    "activeReceivers": 2,
+    "totalRequests": 1097,
+    "offlineDevices": 3,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 179,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:A8",
+        "name": "76:7D:A8",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 29,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 29,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 540
+  },
+  {
+    "timestamp": 1756105600481,
+    "dateTime": "25/8/2025, 12:36:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1047,
+    "offlineDevices": 4,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 153,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 63,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:A8",
+        "name": "76:7D:A8",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 3,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 3,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 513
+  },
+  {
+    "timestamp": 1756105597488,
+    "dateTime": "25/8/2025, 12:36:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1041,
+    "offlineDevices": 4,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 150,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 60,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:A8",
+        "name": "76:7D:A8",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 0,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:78:BA:14",
+        "name": "78:BA:14",
+        "offlineSince": "25/8/2025, 12:36:37 pm",
+        "offlineDuration": 0,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 510
+  },
+  {
+    "timestamp": 1756105594489,
+    "dateTime": "25/8/2025, 12:36:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1035,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 147,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 57,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 507
+  },
+  {
+    "timestamp": 1756105591485,
+    "dateTime": "25/8/2025, 12:36:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1029,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 144,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 54,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 504
+  },
+  {
+    "timestamp": 1756105588492,
+    "dateTime": "25/8/2025, 12:36:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1023,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 141,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 51,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 501
+  },
+  {
+    "timestamp": 1756105585479,
+    "dateTime": "25/8/2025, 12:36:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1018,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 138,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 48,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 498
+  },
+  {
+    "timestamp": 1756105582487,
+    "dateTime": "25/8/2025, 12:36:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1013,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 135,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 45,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 495
+  },
+  {
+    "timestamp": 1756105579491,
+    "dateTime": "25/8/2025, 12:36:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1006,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 132,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 42,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 492
+  },
+  {
+    "timestamp": 1756105576489,
+    "dateTime": "25/8/2025, 12:36:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 40,
+    "activeReceivers": 2,
+    "totalRequests": 1001,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 129,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 39,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 489
+  },
+  {
+    "timestamp": 1756105573492,
+    "dateTime": "25/8/2025, 12:36:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 41,
+    "activeReceivers": 2,
+    "totalRequests": 994,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 126,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 36,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 486
+  },
+  {
+    "timestamp": 1756105570480,
+    "dateTime": "25/8/2025, 12:36:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 989,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 123,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 33,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 483
+  },
+  {
+    "timestamp": 1756105567489,
+    "dateTime": "25/8/2025, 12:36:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 983,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 120,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 30,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 480
+  },
+  {
+    "timestamp": 1756105567388,
+    "dateTime": "25/8/2025, 12:36:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 982,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 119,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 29,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 480
+  },
+  {
+    "timestamp": 1756105564483,
+    "dateTime": "25/8/2025, 12:36:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 978,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 117,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 27,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 477
+  },
+  {
+    "timestamp": 1756105561493,
+    "dateTime": "25/8/2025, 12:36:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 972,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 114,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 24,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 474
+  },
+  {
+    "timestamp": 1756105558494,
+    "dateTime": "25/8/2025, 12:35:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 967,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 111,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 21,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 471
+  },
+  {
+    "timestamp": 1756105555479,
+    "dateTime": "25/8/2025, 12:35:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 961,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 108,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 18,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 468
+  },
+  {
+    "timestamp": 1756105552485,
+    "dateTime": "25/8/2025, 12:35:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 955,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 105,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 15,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 465
+  },
+  {
+    "timestamp": 1756105549487,
+    "dateTime": "25/8/2025, 12:35:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 950,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 102,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 12,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 462
+  },
+  {
+    "timestamp": 1756105546494,
+    "dateTime": "25/8/2025, 12:35:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 944,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 99,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 9,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 459
+  },
+  {
+    "timestamp": 1756105543492,
+    "dateTime": "25/8/2025, 12:35:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 939,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 96,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 6,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 456
+  },
+  {
+    "timestamp": 1756105540489,
+    "dateTime": "25/8/2025, 12:35:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 933,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 93,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 3,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 453
+  },
+  {
+    "timestamp": 1756105537490,
+    "dateTime": "25/8/2025, 12:35:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 42,
+    "activeReceivers": 2,
+    "totalRequests": 927,
+    "offlineDevices": 2,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 90,
+        "lastSteps": 0,
+        "lastBattery": 100
+      },
+      {
+        "id": "28:56:2F:76:7D:2C",
+        "name": "76:7D:2C",
+        "offlineSince": "25/8/2025, 12:35:37 pm",
+        "offlineDuration": 0,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 450
+  },
+  {
+    "timestamp": 1756105534494,
+    "dateTime": "25/8/2025, 12:35:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 920,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 87,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 447
+  },
+  {
+    "timestamp": 1756105531491,
+    "dateTime": "25/8/2025, 12:35:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 915,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 84,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 444
+  },
+  {
+    "timestamp": 1756105528480,
+    "dateTime": "25/8/2025, 12:35:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 910,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 81,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 441
+  },
+  {
+    "timestamp": 1756105525480,
+    "dateTime": "25/8/2025, 12:35:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 903,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 78,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 438
+  },
+  {
+    "timestamp": 1756105522482,
+    "dateTime": "25/8/2025, 12:35:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 898,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 75,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 435
+  },
+  {
+    "timestamp": 1756105519492,
+    "dateTime": "25/8/2025, 12:35:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 891,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 72,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 432
+  },
+  {
+    "timestamp": 1756105516486,
+    "dateTime": "25/8/2025, 12:35:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 886,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 69,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 429
+  },
+  {
+    "timestamp": 1756105513480,
+    "dateTime": "25/8/2025, 12:35:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 879,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 66,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 426
+  },
+  {
+    "timestamp": 1756105510480,
+    "dateTime": "25/8/2025, 12:35:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 874,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 63,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 423
+  },
+  {
+    "timestamp": 1756105507485,
+    "dateTime": "25/8/2025, 12:35:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 868,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 60,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 420
+  },
+  {
+    "timestamp": 1756105507387,
+    "dateTime": "25/8/2025, 12:35:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 867,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 59,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 420
+  },
+  {
+    "timestamp": 1756105504480,
+    "dateTime": "25/8/2025, 12:35:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 861,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 57,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 417
+  },
+  {
+    "timestamp": 1756105501485,
+    "dateTime": "25/8/2025, 12:35:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 856,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 54,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 414
+  },
+  {
+    "timestamp": 1756105498482,
+    "dateTime": "25/8/2025, 12:34:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 850,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 51,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 411
+  },
+  {
+    "timestamp": 1756105495481,
+    "dateTime": "25/8/2025, 12:34:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 844,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 48,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 408
+  },
+  {
+    "timestamp": 1756105492489,
+    "dateTime": "25/8/2025, 12:34:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 839,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 45,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 405
+  },
+  {
+    "timestamp": 1756105489492,
+    "dateTime": "25/8/2025, 12:34:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 833,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 42,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 402
+  },
+  {
+    "timestamp": 1756105486481,
+    "dateTime": "25/8/2025, 12:34:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 827,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 39,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 399
+  },
+  {
+    "timestamp": 1756105483478,
+    "dateTime": "25/8/2025, 12:34:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 821,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 36,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 396
+  },
+  {
+    "timestamp": 1756105480479,
+    "dateTime": "25/8/2025, 12:34:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 814,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 33,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 393
+  },
+  {
+    "timestamp": 1756105477483,
+    "dateTime": "25/8/2025, 12:34:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 809,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 30,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 390
+  },
+  {
+    "timestamp": 1756105474492,
+    "dateTime": "25/8/2025, 12:34:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 802,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 27,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 387
+  },
+  {
+    "timestamp": 1756105471485,
+    "dateTime": "25/8/2025, 12:34:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 797,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 24,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 384
+  },
+  {
+    "timestamp": 1756105468488,
+    "dateTime": "25/8/2025, 12:34:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 791,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 21,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 381
+  },
+  {
+    "timestamp": 1756105465478,
+    "dateTime": "25/8/2025, 12:34:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 785,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 18,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 378
+  },
+  {
+    "timestamp": 1756105462483,
+    "dateTime": "25/8/2025, 12:34:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 778,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 15,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 375
+  },
+  {
+    "timestamp": 1756105459480,
+    "dateTime": "25/8/2025, 12:34:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 773,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 12,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 372
+  },
+  {
+    "timestamp": 1756105456485,
+    "dateTime": "25/8/2025, 12:34:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 766,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 9,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 369
+  },
+  {
+    "timestamp": 1756105453491,
+    "dateTime": "25/8/2025, 12:34:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 761,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 6,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 366
+  },
+  {
+    "timestamp": 1756105450478,
+    "dateTime": "25/8/2025, 12:34:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 754,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 3,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 363
+  },
+  {
+    "timestamp": 1756105447487,
+    "dateTime": "25/8/2025, 12:34:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 748,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 0,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 360
+  },
+  {
+    "timestamp": 1756105447373,
+    "dateTime": "25/8/2025, 12:34:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 747,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 360
+  },
+  {
+    "timestamp": 1756105444485,
+    "dateTime": "25/8/2025, 12:34:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 741,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 357
+  },
+  {
+    "timestamp": 1756105441489,
+    "dateTime": "25/8/2025, 12:34:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 736,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 354
+  },
+  {
+    "timestamp": 1756105438493,
+    "dateTime": "25/8/2025, 12:33:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 731,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 351
+  },
+  {
+    "timestamp": 1756105435486,
+    "dateTime": "25/8/2025, 12:33:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 725,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 348
+  },
+  {
+    "timestamp": 1756105432493,
+    "dateTime": "25/8/2025, 12:33:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 719,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 345
+  },
+  {
+    "timestamp": 1756105429480,
+    "dateTime": "25/8/2025, 12:33:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 714,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 342
+  },
+  {
+    "timestamp": 1756105426485,
+    "dateTime": "25/8/2025, 12:33:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 708,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 339
+  },
+  {
+    "timestamp": 1756105423483,
+    "dateTime": "25/8/2025, 12:33:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 701,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 336
+  },
+  {
+    "timestamp": 1756105420484,
+    "dateTime": "25/8/2025, 12:33:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 696,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 333
+  },
+  {
+    "timestamp": 1756105417485,
+    "dateTime": "25/8/2025, 12:33:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 690,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 330
+  },
+  {
+    "timestamp": 1756105414492,
+    "dateTime": "25/8/2025, 12:33:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 684,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 327
+  },
+  {
+    "timestamp": 1756105411492,
+    "dateTime": "25/8/2025, 12:33:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 678,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 324
+  },
+  {
+    "timestamp": 1756105408493,
+    "dateTime": "25/8/2025, 12:33:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 672,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 321
+  },
+  {
+    "timestamp": 1756105405486,
+    "dateTime": "25/8/2025, 12:33:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 667,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 318
+  },
+  {
+    "timestamp": 1756105402493,
+    "dateTime": "25/8/2025, 12:33:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 661,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 315
+  },
+  {
+    "timestamp": 1756105399490,
+    "dateTime": "25/8/2025, 12:33:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 655,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 312
+  },
+  {
+    "timestamp": 1756105396490,
+    "dateTime": "25/8/2025, 12:33:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 651,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 309
+  },
+  {
+    "timestamp": 1756105393495,
+    "dateTime": "25/8/2025, 12:33:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 644,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 306
+  },
+  {
+    "timestamp": 1756105390484,
+    "dateTime": "25/8/2025, 12:33:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 639,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 303
+  },
+  {
+    "timestamp": 1756105387490,
+    "dateTime": "25/8/2025, 12:33:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 633,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 300
+  },
+  {
+    "timestamp": 1756105387362,
+    "dateTime": "25/8/2025, 12:33:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 630,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 300
+  },
+  {
+    "timestamp": 1756105384483,
+    "dateTime": "25/8/2025, 12:33:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 626,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 297
+  },
+  {
+    "timestamp": 1756105381488,
+    "dateTime": "25/8/2025, 12:33:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 621,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 294
+  },
+  {
+    "timestamp": 1756105378495,
+    "dateTime": "25/8/2025, 12:32:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 614,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 291
+  },
+  {
+    "timestamp": 1756105375484,
+    "dateTime": "25/8/2025, 12:32:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 609,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 288
+  },
+  {
+    "timestamp": 1756105372489,
+    "dateTime": "25/8/2025, 12:32:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 603,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 285
+  },
+  {
+    "timestamp": 1756105369490,
+    "dateTime": "25/8/2025, 12:32:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 597,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 282
+  },
+  {
+    "timestamp": 1756105366488,
+    "dateTime": "25/8/2025, 12:32:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 591,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 279
+  },
+  {
+    "timestamp": 1756105363493,
+    "dateTime": "25/8/2025, 12:32:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 585,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 276
+  },
+  {
+    "timestamp": 1756105360484,
+    "dateTime": "25/8/2025, 12:32:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 580,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 273
+  },
+  {
+    "timestamp": 1756105357484,
+    "dateTime": "25/8/2025, 12:32:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 574,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 270
+  },
+  {
+    "timestamp": 1756105354483,
+    "dateTime": "25/8/2025, 12:32:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 569,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 267
+  },
+  {
+    "timestamp": 1756105351490,
+    "dateTime": "25/8/2025, 12:32:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 562,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 264
+  },
+  {
+    "timestamp": 1756105348485,
+    "dateTime": "25/8/2025, 12:32:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 556,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 261
+  },
+  {
+    "timestamp": 1756105345488,
+    "dateTime": "25/8/2025, 12:32:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 550,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 258
+  },
+  {
+    "timestamp": 1756105342489,
+    "dateTime": "25/8/2025, 12:32:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 544,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 255
+  },
+  {
+    "timestamp": 1756105339483,
+    "dateTime": "25/8/2025, 12:32:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 539,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 252
+  },
+  {
+    "timestamp": 1756105336478,
+    "dateTime": "25/8/2025, 12:32:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 533,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 249
+  },
+  {
+    "timestamp": 1756105333489,
+    "dateTime": "25/8/2025, 12:32:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 527,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 246
+  },
+  {
+    "timestamp": 1756105330500,
+    "dateTime": "25/8/2025, 12:32:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 522,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 243
+  },
+  {
+    "timestamp": 1756105327491,
+    "dateTime": "25/8/2025, 12:32:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 514,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 240
+  },
+  {
+    "timestamp": 1756105327359,
+    "dateTime": "25/8/2025, 12:32:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 513,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 240
+  },
+  {
+    "timestamp": 1756105324494,
+    "dateTime": "25/8/2025, 12:32:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 508,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 237
+  },
+  {
+    "timestamp": 1756105321488,
+    "dateTime": "25/8/2025, 12:32:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 502,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 234
+  },
+  {
+    "timestamp": 1756105318495,
+    "dateTime": "25/8/2025, 12:31:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 497,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 231
+  },
+  {
+    "timestamp": 1756105315480,
+    "dateTime": "25/8/2025, 12:31:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 490,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 228
+  },
+  {
+    "timestamp": 1756105312488,
+    "dateTime": "25/8/2025, 12:31:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 485,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 225
+  },
+  {
+    "timestamp": 1756105309494,
+    "dateTime": "25/8/2025, 12:31:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 478,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 222
+  },
+  {
+    "timestamp": 1756105306490,
+    "dateTime": "25/8/2025, 12:31:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 472,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 219
+  },
+  {
+    "timestamp": 1756105303487,
+    "dateTime": "25/8/2025, 12:31:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 466,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 216
+  },
+  {
+    "timestamp": 1756105300482,
+    "dateTime": "25/8/2025, 12:31:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 459,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 213
+  },
+  {
+    "timestamp": 1756105297503,
+    "dateTime": "25/8/2025, 12:31:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 454,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 210
+  },
+  {
+    "timestamp": 1756105294486,
+    "dateTime": "25/8/2025, 12:31:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 447,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 207
+  },
+  {
+    "timestamp": 1756105291481,
+    "dateTime": "25/8/2025, 12:31:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 440,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 204
+  },
+  {
+    "timestamp": 1756105288484,
+    "dateTime": "25/8/2025, 12:31:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 435,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 201
+  },
+  {
+    "timestamp": 1756105285479,
+    "dateTime": "25/8/2025, 12:31:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 429,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 198
+  },
+  {
+    "timestamp": 1756105282489,
+    "dateTime": "25/8/2025, 12:31:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 423,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 195
+  },
+  {
+    "timestamp": 1756105279479,
+    "dateTime": "25/8/2025, 12:31:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 417,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 192
+  },
+  {
+    "timestamp": 1756105276492,
+    "dateTime": "25/8/2025, 12:31:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 411,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 189
+  },
+  {
+    "timestamp": 1756105273487,
+    "dateTime": "25/8/2025, 12:31:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 405,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 186
+  },
+  {
+    "timestamp": 1756105270480,
+    "dateTime": "25/8/2025, 12:31:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 399,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 183
+  },
+  {
+    "timestamp": 1756105267493,
+    "dateTime": "25/8/2025, 12:31:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 391,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 180
+  },
+  {
+    "timestamp": 1756105267345,
+    "dateTime": "25/8/2025, 12:31:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 390,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 180
+  },
+  {
+    "timestamp": 1756105264482,
+    "dateTime": "25/8/2025, 12:31:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 386,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 177
+  },
+  {
+    "timestamp": 1756105261494,
+    "dateTime": "25/8/2025, 12:31:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 379,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 174
+  },
+  {
+    "timestamp": 1756105258488,
+    "dateTime": "25/8/2025, 12:30:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 373,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 171
+  },
+  {
+    "timestamp": 1756105255487,
+    "dateTime": "25/8/2025, 12:30:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 368,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 168
+  },
+  {
+    "timestamp": 1756105252486,
+    "dateTime": "25/8/2025, 12:30:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 363,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165
+  },
+  {
+    "timestamp": 1756105249487,
+    "dateTime": "25/8/2025, 12:30:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 356,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 162
+  },
+  {
+    "timestamp": 1756105246484,
+    "dateTime": "25/8/2025, 12:30:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 350,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 159
+  },
+  {
+    "timestamp": 1756105243489,
+    "dateTime": "25/8/2025, 12:30:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 344,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 156
+  },
+  {
+    "timestamp": 1756105240493,
+    "dateTime": "25/8/2025, 12:30:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 338,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 153
+  },
+  {
+    "timestamp": 1756105237493,
+    "dateTime": "25/8/2025, 12:30:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 331,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 150
+  },
+  {
+    "timestamp": 1756105234484,
+    "dateTime": "25/8/2025, 12:30:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 325,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 147
+  },
+  {
+    "timestamp": 1756105231494,
+    "dateTime": "25/8/2025, 12:30:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 320,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 144
+  },
+  {
+    "timestamp": 1756105228479,
+    "dateTime": "25/8/2025, 12:30:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 313,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 141
+  },
+  {
+    "timestamp": 1756105225944,
+    "dateTime": "25/8/2025, 12:30:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 308,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 138
+  },
+  {
+    "timestamp": 1756105207484,
+    "dateTime": "25/8/2025, 12:30:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 255,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 120
+  },
+  {
+    "timestamp": 1756105207337,
+    "dateTime": "25/8/2025, 12:30:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 253,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 120
+  },
+  {
+    "timestamp": 1756105204480,
+    "dateTime": "25/8/2025, 12:30:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 249,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 117
+  },
+  {
+    "timestamp": 1756105201479,
+    "dateTime": "25/8/2025, 12:30:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 242,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 114
+  },
+  {
+    "timestamp": 1756105198478,
+    "dateTime": "25/8/2025, 12:29:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 237,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 111
+  },
+  {
+    "timestamp": 1756105195479,
+    "dateTime": "25/8/2025, 12:29:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 230,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 108
+  },
+  {
+    "timestamp": 1756105192480,
+    "dateTime": "25/8/2025, 12:29:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 225,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 105
+  },
+  {
+    "timestamp": 1756105189493,
+    "dateTime": "25/8/2025, 12:29:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 218,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 102
+  },
+  {
+    "timestamp": 1756105186489,
+    "dateTime": "25/8/2025, 12:29:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 212,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 99
+  },
+  {
+    "timestamp": 1756105183484,
+    "dateTime": "25/8/2025, 12:29:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 206,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 96
+  },
+  {
+    "timestamp": 1756105180483,
+    "dateTime": "25/8/2025, 12:29:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 200,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 93
+  },
+  {
+    "timestamp": 1756105177484,
+    "dateTime": "25/8/2025, 12:29:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 194,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 90
+  },
+  {
+    "timestamp": 1756105174481,
+    "dateTime": "25/8/2025, 12:29:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 187,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 87
+  },
+  {
+    "timestamp": 1756105171489,
+    "dateTime": "25/8/2025, 12:29:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 182,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 84
+  },
+  {
+    "timestamp": 1756105168491,
+    "dateTime": "25/8/2025, 12:29:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 177,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 81
+  },
+  {
+    "timestamp": 1756105165486,
+    "dateTime": "25/8/2025, 12:29:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 172,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 78
+  },
+  {
+    "timestamp": 1756105162489,
+    "dateTime": "25/8/2025, 12:29:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 166,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 75
+  },
+  {
+    "timestamp": 1756105159484,
+    "dateTime": "25/8/2025, 12:29:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 160,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 72
+  },
+  {
+    "timestamp": 1756105156494,
+    "dateTime": "25/8/2025, 12:29:16 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 154,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 69
+  },
+  {
+    "timestamp": 1756105153482,
+    "dateTime": "25/8/2025, 12:29:13 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 148,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 66
+  },
+  {
+    "timestamp": 1756105150478,
+    "dateTime": "25/8/2025, 12:29:10 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 142,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 63
+  },
+  {
+    "timestamp": 1756105147492,
+    "dateTime": "25/8/2025, 12:29:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 135,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 60
+  },
+  {
+    "timestamp": 1756105147330,
+    "dateTime": "25/8/2025, 12:29:07 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 133,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 60
+  },
+  {
+    "timestamp": 1756105144485,
+    "dateTime": "25/8/2025, 12:29:04 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 129,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 57
+  },
+  {
+    "timestamp": 1756105141483,
+    "dateTime": "25/8/2025, 12:29:01 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 123,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 54
+  },
+  {
+    "timestamp": 1756105138481,
+    "dateTime": "25/8/2025, 12:28:58 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 116,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 51
+  },
+  {
+    "timestamp": 1756105135479,
+    "dateTime": "25/8/2025, 12:28:55 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 110,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 48
+  },
+  {
+    "timestamp": 1756105132497,
+    "dateTime": "25/8/2025, 12:28:52 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 105,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 45
+  },
+  {
+    "timestamp": 1756105129488,
+    "dateTime": "25/8/2025, 12:28:49 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 99,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 42
+  },
+  {
+    "timestamp": 1756105126488,
+    "dateTime": "25/8/2025, 12:28:46 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 92,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 39
+  },
+  {
+    "timestamp": 1756105123493,
+    "dateTime": "25/8/2025, 12:28:43 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 87,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 36
+  },
+  {
+    "timestamp": 1756105120481,
+    "dateTime": "25/8/2025, 12:28:40 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 80,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 33
+  },
+  {
+    "timestamp": 1756105117482,
+    "dateTime": "25/8/2025, 12:28:37 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 75,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 30
+  },
+  {
+    "timestamp": 1756105114480,
+    "dateTime": "25/8/2025, 12:28:34 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 68,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 27
+  },
+  {
+    "timestamp": 1756105111485,
+    "dateTime": "25/8/2025, 12:28:31 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 62,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 24
+  },
+  {
+    "timestamp": 1756105108477,
+    "dateTime": "25/8/2025, 12:28:28 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 56,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 21
+  },
+  {
+    "timestamp": 1756105105478,
+    "dateTime": "25/8/2025, 12:28:25 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 50,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 18
+  },
+  {
+    "timestamp": 1756105102480,
+    "dateTime": "25/8/2025, 12:28:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 44,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 15
+  },
+  {
+    "timestamp": 1756105099476,
+    "dateTime": "25/8/2025, 12:28:19 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 37,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 12
+  },
+  {
+    "timestamp": 1756105097423,
+    "dateTime": "25/8/2025, 12:28:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 33,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 10
+  },
+  {
+    "timestamp": 1756105091973,
+    "dateTime": "25/8/2025, 12:28:11 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 7,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 4
+  },
+  {
+    "timestamp": 1756105089583,
+    "dateTime": "25/8/2025, 12:28:09 pm",
+    "totalSteps": 0,
+    "activeDevices": 0,
+    "activeReceivers": 0,
+    "totalRequests": 1,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 2
+  },
+  {
+    "timestamp": 1756105037640,
+    "dateTime": "25/8/2025, 12:27:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5739,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166403
+  },
+  {
+    "timestamp": 1756105029580,
+    "dateTime": "25/8/2025, 12:27:09 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5724,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166395
+  },
+  {
+    "timestamp": 1756104977640,
+    "dateTime": "25/8/2025, 12:26:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5633,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166343
+  },
+  {
+    "timestamp": 1756104969572,
+    "dateTime": "25/8/2025, 12:26:09 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5616,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166335
+  },
+  {
+    "timestamp": 1756104930576,
+    "dateTime": "25/8/2025, 12:25:30 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5546,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166296
+  },
+  {
+    "timestamp": 1756104927576,
+    "dateTime": "25/8/2025, 12:25:27 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5538,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166293
+  },
+  {
+    "timestamp": 1756104924568,
+    "dateTime": "25/8/2025, 12:25:24 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5530,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166290
+  },
+  {
+    "timestamp": 1756104921569,
+    "dateTime": "25/8/2025, 12:25:21 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5523,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166287
+  },
+  {
+    "timestamp": 1756104918572,
+    "dateTime": "25/8/2025, 12:25:18 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5515,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166284
+  },
+  {
+    "timestamp": 1756104917635,
+    "dateTime": "25/8/2025, 12:25:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5512,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166283
+  },
+  {
+    "timestamp": 1756104915573,
+    "dateTime": "25/8/2025, 12:25:15 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5508,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166281
+  },
+  {
+    "timestamp": 1756104912576,
+    "dateTime": "25/8/2025, 12:25:12 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5500,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166278
+  },
+  {
+    "timestamp": 1756104909578,
+    "dateTime": "25/8/2025, 12:25:09 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5493,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166275
+  },
+  {
+    "timestamp": 1756104906581,
+    "dateTime": "25/8/2025, 12:25:06 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5485,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166272
+  },
+  {
+    "timestamp": 1756104903576,
+    "dateTime": "25/8/2025, 12:25:03 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5476,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166269
+  },
+  {
+    "timestamp": 1756104900579,
+    "dateTime": "25/8/2025, 12:25:00 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5468,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166266
+  },
+  {
+    "timestamp": 1756104897571,
+    "dateTime": "25/8/2025, 12:24:57 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5461,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166263
+  },
+  {
+    "timestamp": 1756104894577,
+    "dateTime": "25/8/2025, 12:24:54 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5454,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166260
+  },
+  {
+    "timestamp": 1756104891577,
+    "dateTime": "25/8/2025, 12:24:51 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5445,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166257
+  },
+  {
+    "timestamp": 1756104888573,
+    "dateTime": "25/8/2025, 12:24:48 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5438,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166254
+  },
+  {
+    "timestamp": 1756104885571,
+    "dateTime": "25/8/2025, 12:24:45 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5430,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166251
+  },
+  {
+    "timestamp": 1756104882583,
+    "dateTime": "25/8/2025, 12:24:42 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5422,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166248
+  },
+  {
+    "timestamp": 1756104879582,
+    "dateTime": "25/8/2025, 12:24:39 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5414,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166245
+  },
+  {
+    "timestamp": 1756104876585,
+    "dateTime": "25/8/2025, 12:24:36 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5406,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166242
+  },
+  {
+    "timestamp": 1756104872750,
+    "dateTime": "25/8/2025, 12:24:32 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5397,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166238
+  },
+  {
+    "timestamp": 1756104869746,
+    "dateTime": "25/8/2025, 12:24:29 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5389,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166235
+  },
+  {
+    "timestamp": 1756104866742,
+    "dateTime": "25/8/2025, 12:24:26 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5383,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166232
+  },
+  {
+    "timestamp": 1756104863738,
+    "dateTime": "25/8/2025, 12:24:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5374,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166229
+  },
+  {
+    "timestamp": 1756104861571,
+    "dateTime": "25/8/2025, 12:24:21 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5368,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166227
+  },
+  {
+    "timestamp": 1756104858574,
+    "dateTime": "25/8/2025, 12:24:18 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5360,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166224
+  },
+  {
+    "timestamp": 1756104857635,
+    "dateTime": "25/8/2025, 12:24:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5358,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166223
+  },
+  {
+    "timestamp": 1756104855574,
+    "dateTime": "25/8/2025, 12:24:15 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5353,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166221
+  },
+  {
+    "timestamp": 1756104852580,
+    "dateTime": "25/8/2025, 12:24:12 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5345,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166218
+  },
+  {
+    "timestamp": 1756104849581,
+    "dateTime": "25/8/2025, 12:24:09 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5338,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166215
+  },
+  {
+    "timestamp": 1756104846571,
+    "dateTime": "25/8/2025, 12:24:06 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5330,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166212
+  },
+  {
+    "timestamp": 1756104843584,
+    "dateTime": "25/8/2025, 12:24:03 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5321,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166209
+  },
+  {
+    "timestamp": 1756104840573,
+    "dateTime": "25/8/2025, 12:24:00 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5312,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166206
+  },
+  {
+    "timestamp": 1756104837672,
+    "dateTime": "25/8/2025, 12:23:57 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5306,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166203
+  },
+  {
+    "timestamp": 1756104834576,
+    "dateTime": "25/8/2025, 12:23:54 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5298,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166200
+  },
+  {
+    "timestamp": 1756104831577,
+    "dateTime": "25/8/2025, 12:23:51 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5290,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166197
+  },
+  {
+    "timestamp": 1756104828583,
+    "dateTime": "25/8/2025, 12:23:48 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5283,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166194
+  },
+  {
+    "timestamp": 1756104825575,
+    "dateTime": "25/8/2025, 12:23:45 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5274,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166191
+  },
+  {
+    "timestamp": 1756104822576,
+    "dateTime": "25/8/2025, 12:23:42 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5266,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166188
+  },
+  {
+    "timestamp": 1756104819575,
+    "dateTime": "25/8/2025, 12:23:39 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5258,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166185
+  },
+  {
+    "timestamp": 1756104815749,
+    "dateTime": "25/8/2025, 12:23:35 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5249,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166181
+  },
+  {
+    "timestamp": 1756104812745,
+    "dateTime": "25/8/2025, 12:23:32 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5241,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166178
+  },
+  {
+    "timestamp": 1756104809737,
+    "dateTime": "25/8/2025, 12:23:29 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5234,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166175
+  },
+  {
+    "timestamp": 1756104806741,
+    "dateTime": "25/8/2025, 12:23:26 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5226,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166172
+  },
+  {
+    "timestamp": 1756104803741,
+    "dateTime": "25/8/2025, 12:23:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5217,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166169
+  },
+  {
+    "timestamp": 1756104803110,
+    "dateTime": "25/8/2025, 12:23:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5216,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166169
+  },
+  {
+    "timestamp": 1756104802938,
+    "dateTime": "25/8/2025, 12:23:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5215,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166168
+  },
+  {
+    "timestamp": 1756104802479,
+    "dateTime": "25/8/2025, 12:23:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5211,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166168
+  },
+  {
+    "timestamp": 1756104800739,
+    "dateTime": "25/8/2025, 12:23:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5208,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166166
+  },
+  {
+    "timestamp": 1756104797746,
+    "dateTime": "25/8/2025, 12:23:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5199,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166163
+  },
+  {
+    "timestamp": 1756104797630,
+    "dateTime": "25/8/2025, 12:23:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5198,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166163
+  },
+  {
+    "timestamp": 1756104794736,
+    "dateTime": "25/8/2025, 12:23:14 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5191,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166160
+  },
+  {
+    "timestamp": 1756104791752,
+    "dateTime": "25/8/2025, 12:23:11 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5184,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166157
+  },
+  {
+    "timestamp": 1756104788739,
+    "dateTime": "25/8/2025, 12:23:08 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5176,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166154
+  },
+  {
+    "timestamp": 1756104785746,
+    "dateTime": "25/8/2025, 12:23:05 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5168,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166151
+  },
+  {
+    "timestamp": 1756104782747,
+    "dateTime": "25/8/2025, 12:23:02 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5161,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166148
+  },
+  {
+    "timestamp": 1756104779747,
+    "dateTime": "25/8/2025, 12:22:59 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5153,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166145
+  },
+  {
+    "timestamp": 1756104776743,
+    "dateTime": "25/8/2025, 12:22:56 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5145,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166142
+  },
+  {
+    "timestamp": 1756104773739,
+    "dateTime": "25/8/2025, 12:22:53 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5137,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166139
+  },
+  {
+    "timestamp": 1756104773510,
+    "dateTime": "25/8/2025, 12:22:53 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5136,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166139
+  },
+  {
+    "timestamp": 1756104737617,
+    "dateTime": "25/8/2025, 12:22:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 5049,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166103
+  },
+  {
+    "timestamp": 1756104677610,
+    "dateTime": "25/8/2025, 12:21:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4932,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 166043
+  },
+  {
+    "timestamp": 1756104617598,
+    "dateTime": "25/8/2025, 12:20:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4802,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165983
+  },
+  {
+    "timestamp": 1756104557588,
+    "dateTime": "25/8/2025, 12:19:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4652,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165923
+  },
+  {
+    "timestamp": 1756104545746,
+    "dateTime": "25/8/2025, 12:19:05 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4627,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165911
+  },
+  {
+    "timestamp": 1756104543539,
+    "dateTime": "25/8/2025, 12:19:03 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4622,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165909
+  },
+  {
+    "timestamp": 1756104497585,
+    "dateTime": "25/8/2025, 12:18:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4505,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165863
+  },
+  {
+    "timestamp": 1756104437579,
+    "dateTime": "25/8/2025, 12:17:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4391,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165803
+  },
+  {
+    "timestamp": 1756104386755,
+    "dateTime": "25/8/2025, 12:16:26 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4276,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165752
+  },
+  {
+    "timestamp": 1756104383737,
+    "dateTime": "25/8/2025, 12:16:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4270,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165749
+  },
+  {
+    "timestamp": 1756104382777,
+    "dateTime": "25/8/2025, 12:16:22 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4267,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165748
+  },
+  {
+    "timestamp": 1756104377577,
+    "dateTime": "25/8/2025, 12:16:17 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4251,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165743
+  },
+  {
+    "timestamp": 1756104326740,
+    "dateTime": "25/8/2025, 12:15:26 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4116,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165692
+  },
+  {
+    "timestamp": 1756104323744,
+    "dateTime": "25/8/2025, 12:15:23 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4111,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165689
+  },
+  {
+    "timestamp": 1756104321471,
+    "dateTime": "25/8/2025, 12:15:21 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4106,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165687
+  },
+  {
+    "timestamp": 1756104320978,
+    "dateTime": "25/8/2025, 12:15:20 pm",
+    "totalSteps": 0,
+    "activeDevices": 44,
+    "activeReceivers": 2,
+    "totalRequests": 4103,
+    "offlineDevices": 0,
+    "offlineDeviceList": [],
+    "uptime": 165686
+  }
+]
