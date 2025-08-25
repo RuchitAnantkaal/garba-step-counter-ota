@@ -1,465 +1,465 @@
 {
   "24:D7:EB:F2:41:1F": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "24:D7:EB:F2:50:14": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "24:D7:EB:F2:59:95": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3894,
+    "totalUpdates": 4318,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "28:56:2F:76:7C:A4": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3839,
+    "totalUpdates": 4263,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "28:56:2F:76:7C:B4": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3424,
+    "totalUpdates": 3636,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "28:56:2F:76:7C:BC": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3546,
+    "totalUpdates": 3970,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "28:56:2F:76:7C:F4": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 2483,
+    "totalUpdates": 2907,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027764,
     "totalOnlineTime": 21630,
     "disconnectionCount": 1,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027764
   },
   "28:56:2F:76:7D:14": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3893,
+    "totalUpdates": 4317,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:18": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3892,
+    "totalUpdates": 4210,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:1C": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:20": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 2926,
+    "totalUpdates": 3138,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730274,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730274
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:2C": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3082,
+    "totalUpdates": 3506,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 11683,
     "disconnectionCount": 2,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:34": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3749,
+    "totalUpdates": 4173,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:3C": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:44": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3889,
+    "totalUpdates": 4313,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027765,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027765
   },
   "28:56:2F:76:7D:48": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 2800,
+    "totalUpdates": 3172,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:4C": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3890,
+    "totalUpdates": 4314,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:54": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3885,
+    "totalUpdates": 4309,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:84": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3875,
+    "totalUpdates": 4299,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:98": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 2757,
+    "totalUpdates": 3055,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106729097,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 7559,
     "disconnectionCount": 1,
-    "lastUpdate": 1756106729097
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:A8": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 2765,
+    "totalUpdates": 3189,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 54410,
     "disconnectionCount": 2,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:C0": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3819,
+    "totalUpdates": 4243,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730275,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730275
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:76:7D:C8": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3619,
+    "totalUpdates": 4043,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:78:B9:84": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3587,
+    "totalUpdates": 4011,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027766,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027766
   },
   "28:56:2F:78:B9:A0": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:B9:A8": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3603,
+    "totalUpdates": 4027,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:B9:E8": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3608,
+    "totalUpdates": 4032,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:B9:EC": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3617,
+    "totalUpdates": 4041,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:B9:F0": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3878,
+    "totalUpdates": 4090,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730276,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730276
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:B9:F8": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3694,
+    "totalUpdates": 4118,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:B9:FC": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3846,
+    "totalUpdates": 4073,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:BA:04": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3892,
+    "totalUpdates": 4316,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:BA:0C": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3893,
+    "totalUpdates": 4317,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:BA:14": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3322,
+    "totalUpdates": 3746,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027767,
     "totalOnlineTime": 23661,
     "disconnectionCount": 1,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027767
   },
   "28:56:2F:78:BA:30": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3486,
+    "totalUpdates": 3880,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027768
   },
   "28:56:2F:78:BA:38": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3354,
+    "totalUpdates": 3778,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027768
   },
   "28:56:2F:78:BA:80": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3350,
+    "totalUpdates": 3774,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027768
   },
   "30:83:98:86:88:89": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730277,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730277
+    "lastUpdate": 1756107027768
   },
   "44:1D:64:F3:B2:CC": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730278,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730278
+    "lastUpdate": 1756107027768
   },
   "48:55:19:F0:C5:5A": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3896,
+    "totalUpdates": 4320,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730278,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730278
+    "lastUpdate": 1756107027768
   },
   "D8:13:2A:EE:F2:4C": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730278,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730278
+    "lastUpdate": 1756107027768
   },
   "F8:B3:B7:C6:25:F8": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3895,
+    "totalUpdates": 4319,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730278,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730278
+    "lastUpdate": 1756107027768
   },
   "14:33:5C:04:22:34": {
     "firstSeen": 1756104319484,
@@ -474,13 +474,13 @@
   },
   "D0:EF:76:47:67:B4": {
     "firstSeen": 1756104319484,
-    "totalUpdates": 3894,
+    "totalUpdates": 4318,
     "peakSteps": 0,
     "minBattery": 100,
     "maxBattery": 100,
-    "lastOnlineTime": 1756106730278,
+    "lastOnlineTime": 1756107027768,
     "totalOnlineTime": 0,
     "disconnectionCount": 0,
-    "lastUpdate": 1756106730278
+    "lastUpdate": 1756107027768
   }
 }

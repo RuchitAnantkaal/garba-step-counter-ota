@@ -1,5 +1,85 @@
 [
   {
+    "timestamp": 1756106997919,
+    "dateTime": "25/8/2025, 12:59:57 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 528,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1550,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 240
+  },
+  {
+    "timestamp": 1756106937906,
+    "dateTime": "25/8/2025, 12:58:57 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 383,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1490,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 180
+  },
+  {
+    "timestamp": 1756106877896,
+    "dateTime": "25/8/2025, 12:57:57 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 236,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1430,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 120
+  },
+  {
+    "timestamp": 1756106817891,
+    "dateTime": "25/8/2025, 12:56:57 pm",
+    "totalSteps": 0,
+    "activeDevices": 43,
+    "activeReceivers": 2,
+    "totalRequests": 119,
+    "offlineDevices": 1,
+    "offlineDeviceList": [
+      {
+        "id": "14:33:5C:04:22:34",
+        "name": "04:22:34",
+        "offlineSince": "25/8/2025, 12:34:07 pm",
+        "offlineDuration": 1370,
+        "lastSteps": 0,
+        "lastBattery": 100
+      }
+    ],
+    "uptime": 60
+  },
+  {
     "timestamp": 1756106720347,
     "dateTime": "25/8/2025, 12:55:20 pm",
     "totalSteps": 0,

@@ -1889,9 +1889,7 @@ function updateReceiversTable() {
    });
 }
 
-  // Replace the updateDevicesTable() function with this:
-
-function updateDevicesTable() {
+  function updateDevicesTable() {
   fetch('/api/devices')
     .then(r => r.json())
     .then(data => {
@@ -1908,6 +1906,7 @@ function updateDevicesTable() {
             '<table class="table">' +
               '<thead>' +
                 '<tr>' +
+                  '<th>#</th>' +
                   '<th>Device ID</th>' +
                   '<th>Current Steps</th>' +
                   '<th>Peak Steps</th>' +
@@ -1931,6 +1930,7 @@ function updateDevicesTable() {
             '<table class="table">' +
               '<thead>' +
                 '<tr>' +
+                  '<th>#</th>' +
                   '<th>Device ID</th>' +
                   '<th>Last Steps</th>' +
                   '<th>Peak Steps</th>' +
@@ -1952,10 +1952,11 @@ function updateDevicesTable() {
       // Populate online devices table
       let onlineHtml = '';
       if (onlineDevices.length === 0) {
-        onlineHtml = '<tr><td colspan="10" class="empty-state">No devices currently online</td></tr>';
+        onlineHtml = '<tr><td colspan="11" class="empty-state">No devices currently online</td></tr>';
       } else {
-        onlineDevices.forEach(device => {
+        onlineDevices.forEach((device, index) => {
           onlineHtml += '<tr>';
+          onlineHtml += '<td><strong style="color:#f59e0b;">' + (index + 1) + '</strong></td>';
           onlineHtml += '<td>📱 ' + device.name + '</td>';
           onlineHtml += '<td><strong style="color:#10b981;">' + formatNumber(device.stepCount) + '</strong></td>';
           onlineHtml += '<td style="color:#f59e0b;">' + formatNumber(device.peakSteps) + '</td>';
@@ -1974,10 +1975,11 @@ function updateDevicesTable() {
       // Populate offline devices table
       let offlineHtml = '';
       if (offlineDevices.length === 0) {
-        offlineHtml = '<tr><td colspan="10" class="empty-state">No devices currently offline</td></tr>';
+        offlineHtml = '<tr><td colspan="11" class="empty-state">No devices currently offline</td></tr>';
       } else {
-        offlineDevices.forEach(device => {
+        offlineDevices.forEach((device, index) => {
           offlineHtml += '<tr>';
+          offlineHtml += '<td><strong style="color:#ef4444;">' + (index + 1) + '</strong></td>';
           offlineHtml += '<td>📱 ' + device.name + '</td>';
           offlineHtml += '<td><strong style="color:#94a3b8;">' + formatNumber(device.stepCount) + '</strong></td>';
           offlineHtml += '<td style="color:#f59e0b;">' + formatNumber(device.peakSteps) + '</td>';
